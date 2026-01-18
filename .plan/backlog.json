@@ -33,12 +33,11 @@
       "type": "feature",
       "severity": "critical",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:02Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:03Z"
     },
     {
       "id": 4,
