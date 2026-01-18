@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Define catalog entry schema",
+      "description": "Create the data schema for catalog entries with exactly four attributes: name (string), description (one plain-language sentence), inCurrentStack (boolean), pressureTested (boolean).",
+      "type": "feature",
+      "severity": "critical",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-01-17T00:00:00Z",
+      "source": "product-brief",
+      "mvpBatch": true,
+      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
+      "sourceBranch": "mvp/catalog"
+    },
+    {
+      "id": 2,
+      "title": "Create catalog data storage",
+      "description": "Implement storage mechanism for catalog entries. Start simple (JSON file or in-memory) with a clear interface for future migration.",
+      "type": "feature",
+      "severity": "critical",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-01-17T00:00:01Z",
+      "source": "product-brief",
+      "mvpBatch": true,
+      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
+      "sourceBranch": "mvp/catalog"
+    },
+    {
+      "id": 3,
+      "title": "Add new catalog entry",
+      "description": "Implement functionality to add a new entry to the catalog with all four required attributes.",
+      "type": "feature",
+      "severity": "critical",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-01-17T00:00:02Z",
+      "source": "product-brief",
+      "mvpBatch": true,
+      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
+      "sourceBranch": "mvp/catalog"
+    },
+    {
+      "id": 4,
+      "title": "List all catalog entries",
+      "description": "Implement functionality to view/browse all entries in the catalog.",
+      "type": "feature",
+      "severity": "high",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-01-17T00:00:03Z",
+      "source": "product-brief",
+      "mvpBatch": true,
+      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
+      "sourceBranch": "mvp/catalog"
+    },
+    {
+      "id": 5,
+      "title": "Lookup entry by name",
+      "description": "Implement exact-match lookup by name to answer 'What is this?' queries. This is the core success criteria for v0.",
+      "type": "feature",
+      "severity": "high",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-01-17T00:00:04Z",
+      "source": "product-brief",
+      "mvpBatch": true,
+      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
+      "sourceBranch": "mvp/catalog"
+    },
+    {
+      "id": 6,
+      "title": "Search entries by partial name",
+      "description": "Implement fuzzy/partial name search for when users don't remember the exact name of a tool or term.",
+      "type": "feature",
+      "severity": "medium",
+      "phase": "should",
+      "status": "open",
+      "createdAt": "2026-01-17T00:00:05Z",
+      "source": "product-brief"
+    },
+    {
+      "id": 7,
+      "title": "Seed catalog with initial entries",
+      "description": "Populate the catalog with an initial set of commonly encountered AI tools and terms to make it immediately useful.",
+      "type": "feature",
+      "severity": "medium",
+      "phase": "should",
+      "status": "open",
+      "createdAt": "2026-01-17T00:00:06Z",
+      "source": "product-brief"
+    },
+    {
+      "id": 8,
+      "title": "Filter entries by stack status",
+      "description": "Allow filtering catalog entries by inCurrentStack or pressureTested status to see personal usage patterns.",
+      "type": "feature",
+      "severity": "low",
+      "phase": "could",
+      "status": "open",
+      "createdAt": "2026-01-17T00:00:07Z",
+      "source": "product-brief"
+    },
+    {
+      "id": 9,
+      "title": "Export catalog data",
+      "description": "Allow exporting the catalog in a portable format (JSON, CSV) for sharing or backup.",
+      "type": "feature",
+      "severity": "low",
+      "phase": "could",
+      "status": "open",
+      "createdAt": "2026-01-17T00:00:08Z",
+      "source": "product-brief"
+    }
+  ]
+}
