@@ -7,15 +7,19 @@
   },
   {
     "name": "Pomelli",
-    "description": "A macOS menu bar app for Pomodoro-style time tracking",
+    "description": "An experimental, AI-powered marketing tool from Google Labs designed to build scalable, on-brand content to help connect with audiences faster",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://labs.google.com/pomelli/about/"
   },
   {
     "name": "Google Gemini",
-    "description": "Google's multimodal AI model and chat interface",
+    "description": "Google's multimodal LLM family for reasoning, planning, and structured problem solving",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://ai.google",
+    "pricingUrl": "https://ai.google.dev/pricing",
+    "apiUrl": "https://ai.google.dev/docs"
   },
   {
     "name": "Growth Hub",
@@ -31,9 +35,13 @@
   },
   {
     "name": "ElevenLabs",
-    "description": "An AI voice synthesis and cloning platform",
+    "description": "Generative voice AI for text-to-speech, voice cloning, and audio narration",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://elevenlabs.io",
+    "pricingUrl": "https://elevenlabs.io/pricing",
+    "affiliateUrl": "https://elevenlabs.io/affiliates",
+    "apiUrl": "https://elevenlabs.io/docs"
   },
   {
     "name": "Claude Desktop",
@@ -49,9 +57,12 @@
   },
   {
     "name": "ChatGPT",
-    "description": "OpenAI's conversational AI assistant available on desktop and mobile",
+    "description": "General-purpose LLM for reasoning, writing, coding, and analysis",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://chatgpt.com",
+    "pricingUrl": "https://chatgpt.com/pricing",
+    "apiUrl": "https://platform.openai.com/docs"
   },
   {
     "name": "Claude Code SDK",
@@ -76,5 +87,269 @@
     "description": "A platform for building conversational voice AI applications",
     "inCurrentStack": false,
     "pressureTested": false
+  },
+  {
+    "name": "Artisan",
+    "description": "AI-native sales platform with Ava (AI SDR), lead sourcing/enrichment, email outreach with warmup, LinkedIn automation, and CRM integration",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://artisan.co",
+    "pricingUrl": "https://artisan.co/pricing"
+  },
+  {
+    "name": "ComfyUI",
+    "description": "Node-based GUI for Stable Diffusion with modular workflow design for image generation pipelines",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Pykaso",
+    "description": "Generative AI platform for ultra-realistic images and videos with custom LoRa training, image-to-image, skin enhancement, and face swap",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Lindy",
+    "description": "AI agent platform for building custom AI employees to automate workflows like email, scheduling, sales, and customer support",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Gamma",
+    "description": "AI-powered tool for creating presentations, documents, and websites from prompts with automatic design and formatting",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Figma Make",
+    "description": "AI feature in Figma that generates UI designs, components, and prototypes from text prompts",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Poppy AI",
+    "description": "AI content creation and research platform with visual whiteboard interface for brainstorming, summarizing, and generating content from videos, links, and text",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Blotato",
+    "description": "AI content creation and social media automation platform for generating posts, faceless videos, repurposing long-form content, and multi-channel scheduling",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "OpusClip",
+    "description": "AI video repurposing tool that automatically extracts viral short clips from long videos",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.opus.pro",
+    "pricingUrl": "https://www.opus.pro/pricing",
+    "affiliateUrl": "https://www.opus.pro/affiliate"
+  },
+  {
+    "name": "Submagic",
+    "description": "AI-powered caption generator for short-form videos with animated subtitles, emojis, and effects for social media content",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Descript",
+    "description": "AI-powered audio and video editor with transcript-based editing, voice cloning (Overdub), filler word removal, and screen recording",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Sora",
+    "description": "OpenAI's text-to-video AI model that generates realistic videos from text prompts",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI video platform with digital avatars for creating training, marketing, and corporate videos in multiple languages",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Pika",
+    "description": "AI video generation and editing tool for creating and modifying videos from text and images",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Veo",
+    "description": "Google DeepMind's text-to-video AI model for generating high-quality videos from prompts",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Grok",
+    "description": "xAI's conversational AI assistant with real-time X/Twitter integration and multimodal capabilities",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Vapi",
+    "description": "Voice AI platform for building conversational voice agents and assistants with real-time speech capabilities",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Retell",
+    "description": "Voice AI platform for creating human-like AI phone agents for sales, support, and appointments",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "MidJourney",
+    "description": "AI image generation platform accessed via Discord that creates artistic and photorealistic images from text prompts",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Ideogram",
+    "description": "AI image generator with strong text rendering capabilities for creating images with accurate typography and lettering",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Hype Jet GPT",
+    "description": "Custom GPT for ChatGPT that generates cinematic ad scripts and stylized marketing copy for high-impact storytelling",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "DALL·E",
+    "description": "OpenAI's AI image generation model that creates and edits images from natural language prompts",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "11x",
+    "description": "AI-powered digital workers for sales automation, including Alice (AI SDR) and Julian (AI phone agent) for revenue teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.11x.ai/"
+  },
+  {
+    "name": "Blocks",
+    "description": "AI platform for building custom work apps and smart agents without code, combining an app builder and agent builder with custom interfaces and integrations",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://blocks.diy",
+    "pricingUrl": "https://blocks.diy/website/pricing",
+    "affiliateUrl": "https://blocks.diy/website/affiliates"
+  },
+  {
+    "name": "Creatify",
+    "description": "AI video ad generator that creates multiple ad variations from a product URL and tests what converts",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://creatify.ai/",
+    "pricingUrl": "https://creatify.ai/pricing",
+    "affiliateUrl": "https://creatify.ai/affiliate"
+  },
+  {
+    "name": "Manus",
+    "description": "AI platform that executes tasks, automates workflows, and extends human reach beyond just providing answers",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://manus.im",
+    "pricingUrl": "https://manus.im/pricing",
+    "apiUrl": "https://open.manus.ai/docs"
+  },
+  {
+    "name": "Claude",
+    "description": "LLM focused on reasoning, long-context writing, and safe alignment, strong for analysis and code",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://claude.ai",
+    "pricingUrl": "https://www.anthropic.com/pricing",
+    "apiUrl": "https://docs.anthropic.com"
+  },
+  {
+    "name": "Perplexity",
+    "description": "AI-native answer engine that replaces traditional search with cited, synthesized responses",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.perplexity.ai",
+    "pricingUrl": "https://www.perplexity.ai/pro",
+    "apiUrl": "https://docs.perplexity.ai"
+  },
+  {
+    "name": "Suno",
+    "description": "AI music generation platform that creates full songs from text prompts",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://suno.ai",
+    "pricingUrl": "https://suno.ai/pricing"
+  },
+  {
+    "name": "Runway",
+    "description": "Generative video platform for text-to-video, image-to-video, and AI video editing",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://runwayml.com",
+    "pricingUrl": "https://runwayml.com/pricing",
+    "apiUrl": "https://docs.runwayml.com"
+  },
+  {
+    "name": "Luma",
+    "description": "AI-native 3D capture and neural rendering for scenes, objects, and environments",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://lumalabs.ai",
+    "pricingUrl": "https://lumalabs.ai/pricing"
+  },
+  {
+    "name": "Wordtune",
+    "description": "AI writing and rewriting assistant focused on clarity, tone, and ideation",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.wordtune.com",
+    "pricingUrl": "https://www.wordtune.com/pricing"
+  },
+  {
+    "name": "Recraft",
+    "description": "AI image generation and editing tool focused on style consistency and design assets",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.recraft.ai",
+    "pricingUrl": "https://www.recraft.ai/pricing"
+  },
+  {
+    "name": "PicWish",
+    "description": "AI image processing tool for background removal, cleanup, and enhancement",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://picwish.com",
+    "pricingUrl": "https://picwish.com/pricing",
+    "apiUrl": "https://picwish.com/api"
+  },
+  {
+    "name": "RecCloud",
+    "description": "AI video and audio summarization tool, commonly used for YouTube content digestion",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://reccloud.com",
+    "pricingUrl": "https://reccloud.com/pricing"
+  },
+  {
+    "name": "SkySnail",
+    "description": "AI-driven thumbnail generator optimized for viral performance",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://skysnail.ai",
+    "pricingUrl": "https://skysnail.ai/pricing"
+  },
+  {
+    "name": "Syllaby",
+    "description": "AI content engine for faceless video scripts and automated short-form content",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://syllaby.com",
+    "pricingUrl": "https://syllaby.com/pricing",
+    "affiliateUrl": "https://syllaby.com/affiliate"
   }
 ]

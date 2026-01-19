@@ -28,6 +28,26 @@ export interface CatalogEntry {
    * Not demos, reading, or hype exposure.
    */
   pressureTested: boolean;
+
+  /**
+   * The primary website URL for the tool or concept.
+   */
+  websiteUrl?: string;
+
+  /**
+   * URL to pricing information, if applicable.
+   */
+  pricingUrl?: string;
+
+  /**
+   * Affiliate program URL, if applicable.
+   */
+  affiliateUrl?: string;
+
+  /**
+   * API documentation URL, if applicable.
+   */
+  apiUrl?: string;
 }
 
 /**
