@@ -53,7 +53,10 @@
     "name": "Claude Code",
     "description": "Anthropic's command-line interface for AI-assisted coding",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://www.anthropic.com/claude-code",
+    "pricingUrl": "https://www.anthropic.com/pricing",
+    "apiUrl": "https://docs.anthropic.com"
   },
   {
     "name": "ChatGPT",
@@ -100,7 +103,8 @@
     "name": "ComfyUI",
     "description": "Node-based GUI for Stable Diffusion with modular workflow design for image generation pipelines",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://github.com/comfyanonymous/ComfyUI"
   },
   {
     "name": "Pykaso",
@@ -169,7 +173,9 @@
     "name": "Synthesia",
     "description": "AI video platform with digital avatars for creating training, marketing, and corporate videos in multiple languages",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://www.synthesia.io",
+    "pricingUrl": "https://www.synthesia.io/pricing"
   },
   {
     "name": "Pika",
@@ -205,7 +211,9 @@
     "name": "MidJourney",
     "description": "AI image generation platform accessed via Discord that creates artistic and photorealistic images from text prompts",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "websiteUrl": "https://www.midjourney.com",
+    "pricingUrl": "https://www.midjourney.com/pricing"
   },
   {
     "name": "Ideogram",
@@ -351,5 +359,456 @@
     "websiteUrl": "https://syllaby.com",
     "pricingUrl": "https://syllaby.com/pricing",
     "affiliateUrl": "https://syllaby.com/affiliate"
+  },
+  {
+    "name": "PixelMotion",
+    "description": "AI-native platform using multiple advanced models (e.g., Sora 2, Veo 3.1) to generate professional videos and enhanced photos with integrated client discovery and business search features",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.pixelmotion.io",
+    "pricingUrl": "https://www.pixelmotion.io/pricing",
+    "apiUrl": "https://api.pixelmotion.io"
+  },
+  {
+    "name": "Luma AI",
+    "description": "AI platform for generating realistic 3D scenes and high-quality videos from text, images, or video input, best known for its Dream Machine video generation model",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://luma.ai",
+    "pricingUrl": "https://lumalabs.ai/pricing",
+    "apiUrl": "https://lumalabs.ai/api"
+  },
+  {
+    "name": "Fathom",
+    "description": "Free AI meeting assistant that records, transcribes, and summarizes Zoom, Google Meet, and Microsoft Teams calls",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.fathom.video",
+    "pricingUrl": "https://www.fathom.video/pricing"
+  },
+  {
+    "name": "Fireflies.ai",
+    "description": "AI meeting assistant that records, transcribes, summarizes, and searches across voice conversations with CRM integrations",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://fireflies.ai",
+    "pricingUrl": "https://fireflies.ai/pricing",
+    "apiUrl": "https://docs.fireflies.ai"
+  },
+  {
+    "name": "Granola",
+    "description": "AI notepad for meetings that captures notes without a visible bot joining the call, available on macOS, Windows, and iOS",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.granola.ai",
+    "pricingUrl": "https://www.granola.ai/pricing"
+  },
+  {
+    "name": "MeetGeek",
+    "description": "AI meeting assistant that records, transcribes, summarizes, and extracts key points from Zoom, Google Meet, and Teams meetings",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://meetgeek.ai",
+    "pricingUrl": "https://meetgeek.ai/pricing",
+    "apiUrl": "https://meetgeek.ai/go/api"
+  },
+  {
+    "name": "Motion",
+    "description": "AI-powered calendar and task manager that automatically schedules tasks, prevents conflicts, and optimizes your day",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.usemotion.com",
+    "pricingUrl": "https://www.usemotion.com/pricing",
+    "apiUrl": "https://api.usemotion.com/docs"
+  },
+  {
+    "name": "Otter.ai",
+    "description": "AI meeting assistant that provides real-time transcription, automated notes, and searchable meeting summaries for Zoom, Teams, and Meet",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://otter.ai",
+    "pricingUrl": "https://otter.ai/pricing",
+    "apiUrl": "https://otter.ai/api"
+  },
+  {
+    "name": "Recall.ai",
+    "description": "API platform for meeting recording, transcription, and metadata extraction across Zoom, Google Meet, Teams, and other video platforms",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.recall.ai",
+    "pricingUrl": "https://www.recall.ai/pricing",
+    "apiUrl": "https://docs.recall.ai"
+  },
+  {
+    "name": "Avoma",
+    "description": "AI meeting assistant and conversation intelligence platform for automated note-taking, transcription, and CRM updates for revenue teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.avoma.com",
+    "pricingUrl": "https://www.avoma.com/pricing"
+  },
+  {
+    "name": "tl;dv",
+    "description": "AI meeting recorder that transcribes, summarizes, and creates searchable meeting libraries for Zoom, Google Meet, and Teams in 30+ languages",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://tldv.io",
+    "pricingUrl": "https://tldv.io/app/pricing"
+  },
+  {
+    "name": "Equal Time",
+    "description": "Meeting assistant focused on inclusivity that tracks speaking time, participation balance, and conversation metrics in real-time",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://equaltime.io",
+    "pricingUrl": "https://equaltime.io/pricing"
+  },
+  {
+    "name": "Rewatch",
+    "description": "Collaborative video hub combining AI meeting notes, screen recording, and searchable video knowledge base for teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://rewatch.com",
+    "pricingUrl": "https://rewatch.com/pricing",
+    "apiUrl": "https://rewatch.com/api"
+  },
+  {
+    "name": "Nyota",
+    "description": "AI meeting assistant for automated note-taking, task assignments, and follow-ups with CRM and project management integrations",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.nyota.ai",
+    "pricingUrl": "https://www.nyota.ai/pricing"
+  },
+  {
+    "name": "Fellow",
+    "description": "Secure AI meeting assistant that records, transcribes, and summarizes meetings with deep CRM and project management integrations",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://fellow.ai",
+    "pricingUrl": "https://fellow.ai/pricing",
+    "apiUrl": "https://fellow.ai/api"
+  },
+  {
+    "name": "Pictory",
+    "description": "AI video repurposing platform that turns scripts, articles, and long-form videos into short, captioned social clips at scale",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://pictory.ai",
+    "pricingUrl": "https://pictory.ai/pricing",
+    "affiliateUrl": "https://pictory.ai/affiliate"
+  },
+  {
+    "name": "Photoroom",
+    "description": "AI-powered image editor for creating clean, professional product photos and marketing visuals, especially for e-commerce and social sellers",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.photoroom.com",
+    "pricingUrl": "https://www.photoroom.com/pricing",
+    "apiUrl": "https://www.photoroom.com/api"
+  },
+  {
+    "name": "OpenArt",
+    "description": "AI art platform for generating, discovering, and remixing images using text-to-image models and community-trained styles",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://openart.ai",
+    "pricingUrl": "https://openart.ai/pricing"
+  },
+  {
+    "name": "Kling AI",
+    "description": "Text-to-video and image-to-video generative AI model for creating cinematic, physically realistic short videos from prompts or reference images",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://klingai.com",
+    "pricingUrl": "https://klingai.com/pricing"
+  },
+  {
+    "name": "AKOOL",
+    "description": "AI-powered visual content platform for creating personalized avatars, face swaps, and generative videos for marketing, sales, and enterprise communications",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://akool.com",
+    "pricingUrl": "https://akool.com/pricing",
+    "affiliateUrl": "https://akool.com/partners",
+    "apiUrl": "https://docs.akool.com"
+  },
+  {
+    "name": "Omnime",
+    "description": "AI-powered content automation platform that creates hyper-realistic social media photos and short videos using a trained digital influencer for consistent brand production",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.omnime.ai"
+  },
+  {
+    "name": "MimicPC",
+    "description": "Browser-based cloud GPU workspace for running popular open-source AI apps (image, video, audio) and training LoRAs without local setup",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.mimicpc.com",
+    "pricingUrl": "https://www.mimicpc.com/pricing",
+    "affiliateUrl": "https://www.mimicpc.com/learn/affiliate-program"
+  },
+  {
+    "name": "fal",
+    "description": "Serverless inference platform for running and deploying diffusion, vision, and generative AI models with low-latency APIs",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://fal.ai",
+    "pricingUrl": "https://fal.ai/pricing",
+    "apiUrl": "https://fal.ai/docs"
+  },
+  {
+    "name": "Affogato",
+    "description": "AI platform for managing, evaluating, and improving generative media workflows, with a focus on image and video quality, testing, and iteration",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://affogato.ai"
+  },
+  {
+    "name": "Flux AI",
+    "description": "AI-powered design and simulation platform for engineers to generate, iterate, and optimize product concepts using natural language and parametric models",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://flux-ai.io",
+    "pricingUrl": "https://flux-ai.io/pricing"
+  },
+  {
+    "name": "Invoke",
+    "description": "Open-source platform for generating images with Stable Diffusion through a polished UI, workflows, and model management",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://invoke.ai",
+    "apiUrl": "https://invoke-ai.github.io/InvokeAI/"
+  },
+  {
+    "name": "ThinkDiffusion",
+    "description": "Cloud-hosted Stable Diffusion workspace providing instant access to ComfyUI and A1111 without local setup",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://thinkdiffusion.com",
+    "pricingUrl": "https://thinkdiffusion.com/pricing",
+    "affiliateUrl": "https://thinkdiffusion.com/affiliate"
+  },
+  {
+    "name": "Google Veo",
+    "description": "Text-to-video generation model by Google that creates high-fidelity cinematic video from prompts for creators and studios",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://deepmind.google/technologies/veo/"
+  },
+  {
+    "name": "Seedance",
+    "description": "AI video generation platform focused on stylized motion, choreography, and expressive animation from text or references",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://seedance.ai"
+  },
+  {
+    "name": "LTX Studio",
+    "description": "AI filmmaking platform for generating long-form, story-consistent videos with cinematic control",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://ltx.studio"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "Open-source text-to-image diffusion model for generating and editing images locally or via APIs, used by developers, artists, and product teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://stability.ai/stable-diffusion"
+  },
+  {
+    "name": "Freepik AI",
+    "description": "AI-powered design platform offering image generation, editing, and stock assets for marketers, designers, and content teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.freepik.com",
+    "pricingUrl": "https://www.freepik.com/pricing",
+    "affiliateUrl": "https://contributor.freepik.com"
+  },
+  {
+    "name": "Leonardo.ai",
+    "description": "AI image generation platform optimized for game assets, concept art, and production-ready visuals",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://leonardo.ai",
+    "pricingUrl": "https://leonardo.ai/pricing",
+    "apiUrl": "https://docs.leonardo.ai"
+  },
+  {
+    "name": "NightCafe",
+    "description": "Consumer-friendly AI art generator supporting multiple models and community-driven creation",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://nightcafe.studio",
+    "pricingUrl": "https://nightcafe.studio/pricing",
+    "affiliateUrl": "https://nightcafe.studio/affiliate"
+  },
+  {
+    "name": "Imagen 2",
+    "description": "Google's advanced text-to-image diffusion model focused on realism and prompt accuracy",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://deepmind.google/technologies/imagen-2/",
+    "apiUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/image/overview"
+  },
+  {
+    "name": "Enhancor",
+    "description": "AI-powered image enhancement tool for upscaling, sharpening, and restoring visual assets",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://enhancor.ai",
+    "pricingUrl": "https://enhancor.ai/pricing"
+  },
+  {
+    "name": "Kittl",
+    "description": "Design platform for creating logos, typography, and branded graphics using AI-assisted tools for non-designers and marketers",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.kittl.com",
+    "pricingUrl": "https://www.kittl.com/pricing"
+  },
+  {
+    "name": "PhotoBear",
+    "description": "AI photo enhancement and generation tool focused on profile photos, avatars, and personal branding imagery",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://photobear.io"
+  },
+  {
+    "name": "Vector Magic",
+    "description": "Image vectorization tool that converts raster images into scalable vector graphics with high accuracy",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://vectormagic.com",
+    "pricingUrl": "https://vectormagic.com/pricing"
+  },
+  {
+    "name": "Vectorizer.AI",
+    "description": "AI-powered online tool that automatically converts images into clean, editable vector files",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://vectorizer.ai",
+    "pricingUrl": "https://vectorizer.ai/pricing",
+    "apiUrl": "https://vectorizer.ai/api"
+  },
+  {
+    "name": "Base44",
+    "description": "AI-powered app builder that turns natural language prompts into full-stack web applications with auth, database, and deployment handled automatically",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://base44.com"
+  },
+  {
+    "name": "Bolt",
+    "description": "AI coding agent that generates, edits, and runs full applications in a browser-based development environment",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://bolt.new",
+    "pricingUrl": "https://bolt.new/pricing"
+  },
+  {
+    "name": "Lovable",
+    "description": "AI app builder that converts plain English ideas into production-ready web apps with hosting, auth, and database included",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://lovable.dev",
+    "pricingUrl": "https://lovable.dev/pricing"
+  },
+  {
+    "name": "Replit",
+    "description": "Cloud-based development platform with AI-assisted coding, deployment, and collaboration in the browser",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://replit.com",
+    "pricingUrl": "https://replit.com/pricing",
+    "apiUrl": "https://docs.replit.com"
+  },
+  {
+    "name": "v0",
+    "description": "AI UI generator that produces production-ready React components from text prompts and design intent",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://v0.dev",
+    "pricingUrl": "https://v0.dev/pricing"
+  },
+  {
+    "name": "Rork",
+    "description": "AI-powered mobile app builder that generates React Native apps from prompts for founders and indie developers",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://rork.ai",
+    "pricingUrl": "https://rork.ai/pricing"
+  },
+  {
+    "name": "Cursor",
+    "description": "AI-first code editor that embeds large language models directly into the developer workflow for writing, refactoring, and understanding code",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://cursor.sh",
+    "pricingUrl": "https://cursor.sh/pricing"
+  },
+  {
+    "name": "Zed",
+    "description": "High-performance, collaborative code editor with built-in AI assistance aimed at real-time teamwork",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://zed.dev"
+  },
+  {
+    "name": "Windsurf",
+    "description": "Agentic AI IDE that plans, writes, and refactors code across a repository with minimal human intervention",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://codeium.com/windsurf",
+    "pricingUrl": "https://codeium.com/pricing"
+  },
+  {
+    "name": "Jules",
+    "description": "AI coding agent from Google that autonomously fixes bugs and implements changes in GitHub repositories",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://ai.google.dev/jules"
+  },
+  {
+    "name": "Gemini CLI",
+    "description": "Command-line AI assistant from Google that helps developers write, debug, and reason about code directly in the terminal",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://ai.google.dev/gemini-cli",
+    "apiUrl": "https://ai.google.dev"
+  },
+  {
+    "name": "OpenAI Codex",
+    "description": "Foundational code generation model and agent system from OpenAI that powers autonomous programming tasks",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://openai.com/codex",
+    "pricingUrl": "https://openai.com/pricing",
+    "apiUrl": "https://platform.openai.com/docs"
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that suggests code and documentation directly inside popular IDEs",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://github.com/features/copilot",
+    "pricingUrl": "https://github.com/pricing"
+  },
+  {
+    "name": "CodeRabbit",
+    "description": "AI-powered code review bot that analyzes pull requests and leaves actionable feedback automatically",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://coderabbit.ai",
+    "pricingUrl": "https://coderabbit.ai/pricing"
+  },
+  {
+    "name": "Google Antigravity",
+    "description": "Experimental Google research project exploring autonomous software engineering agents capable of planning, coding, and iterating on complex systems end-to-end",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://antigravity.google/"
   }
 ]
