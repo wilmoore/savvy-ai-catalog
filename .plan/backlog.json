@@ -7,12 +7,11 @@
       "type": "feature",
       "severity": "critical",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:00Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:01Z"
     },
     {
       "id": 2,
@@ -21,12 +20,11 @@
       "type": "feature",
       "severity": "critical",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:01Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:02Z"
     },
     {
       "id": 3,
@@ -35,12 +33,11 @@
       "type": "feature",
       "severity": "critical",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:02Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:03Z"
     },
     {
       "id": 4,
@@ -49,12 +46,11 @@
       "type": "feature",
       "severity": "high",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:03Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:04Z"
     },
     {
       "id": 5,
@@ -63,12 +59,11 @@
       "type": "feature",
       "severity": "high",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-01-17T00:00:04Z",
       "source": "product-brief",
-      "mvpBatch": true,
-      "mvpBatchStartedAt": "2026-01-18T00:00:00Z",
-      "sourceBranch": "mvp/catalog"
+      "sourceBranch": "mvp/catalog",
+      "resolvedAt": "2026-01-18T00:00:05Z"
     },
     {
       "id": 6,

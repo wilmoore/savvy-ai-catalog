@@ -1,0 +1,9 @@
+{
+  "lastSequence": 2,
+  "entries": [
+    {
+      "branch": "mvp/catalog",
+      "adrs": ["001-use-json-file-storage.md", "002-four-attribute-entry-schema.md"]
+    }
+  ]
+}
