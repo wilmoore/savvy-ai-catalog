@@ -35,6 +35,10 @@ export class CatalogService {
       description: entry.description.trim(),
       inCurrentStack: entry.inCurrentStack,
       pressureTested: entry.pressureTested,
+      ...(entry.websiteUrl && { websiteUrl: entry.websiteUrl.trim() }),
+      ...(entry.pricingUrl && { pricingUrl: entry.pricingUrl.trim() }),
+      ...(entry.affiliateUrl && { affiliateUrl: entry.affiliateUrl.trim() }),
+      ...(entry.apiUrl && { apiUrl: entry.apiUrl.trim() }),
     });
 
     this.store.save(catalog);
@@ -54,6 +58,51 @@ export class CatalogService {
   findByName(name: string): CatalogEntry | undefined {
     const catalog = this.store.load();
     return catalog.find((e) => e.name.toLowerCase() === name.toLowerCase());
+  }
+
+  /**
+   * Update an existing entry in the catalog.
+   * @param name - The name of the entry to update (case-insensitive)
+   * @param updates - Partial entry with fields to update
+   * @throws Error if entry is not found
+   */
+  update(name: string, updates: Partial<Omit<CatalogEntry, "name">>): void {
+    const catalog = this.store.load();
+    const index = catalog.findIndex(
+      (e) => e.name.toLowerCase() === name.toLowerCase()
+    );
+
+    if (index === -1) {
+      throw new Error(`Entry "${name}" not found in the catalog`);
+    }
+
+    const existing = catalog[index];
+    catalog[index] = {
+      ...existing,
+      ...(updates.description !== undefined && {
+        description: updates.description.trim(),
+      }),
+      ...(updates.inCurrentStack !== undefined && {
+        inCurrentStack: updates.inCurrentStack,
+      }),
+      ...(updates.pressureTested !== undefined && {
+        pressureTested: updates.pressureTested,
+      }),
+      ...(updates.websiteUrl !== undefined && {
+        websiteUrl: updates.websiteUrl.trim(),
+      }),
+      ...(updates.pricingUrl !== undefined && {
+        pricingUrl: updates.pricingUrl.trim(),
+      }),
+      ...(updates.affiliateUrl !== undefined && {
+        affiliateUrl: updates.affiliateUrl.trim(),
+      }),
+      ...(updates.apiUrl !== undefined && {
+        apiUrl: updates.apiUrl.trim(),
+      }),
+    };
+
+    this.store.save(catalog);
   }
 }
 
