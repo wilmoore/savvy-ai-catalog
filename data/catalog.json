@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "name": "NotebookLM",
+    "description": "A Google AI tool that turns documents into an interactive AI research assistant",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Pomelli",
+    "description": "A macOS menu bar app for Pomodoro-style time tracking",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Google Gemini",
+    "description": "Google's multimodal AI model and chat interface",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Growth Hub",
+    "description": "A business growth and marketing platform",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "HeyGen",
+    "description": "An AI video generation platform for creating avatar-based videos",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "An AI voice synthesis and cloning platform",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Claude Desktop",
+    "description": "Anthropic's desktop and mobile app for conversing with Claude AI",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Claude Code",
+    "description": "Anthropic's command-line interface for AI-assisted coding",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "ChatGPT",
+    "description": "OpenAI's conversational AI assistant available on desktop and mobile",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Claude Code SDK",
+    "description": "A developer toolkit for building custom agents with Claude",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Claude In Chrome",
+    "description": "A Chrome extension for using Claude AI within the browser",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Vapi AI",
+    "description": "A platform for building and deploying voice AI agents",
+    "inCurrentStack": false,
+    "pressureTested": false
+  },
+  {
+    "name": "Retell AI",
+    "description": "A platform for building conversational voice AI applications",
+    "inCurrentStack": false,
+    "pressureTested": false
+  }
+]
