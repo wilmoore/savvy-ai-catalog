@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import type { Catalog, CatalogEntry } from "./types";
+import type { Catalog, CatalogEntry } from "./types.js";
 
 /**
  * Storage interface for the catalog.

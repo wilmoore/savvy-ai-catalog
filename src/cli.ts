@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { createCatalogService } from "./catalog";
-import type { CatalogEntry } from "./types";
+import { createCatalogService } from "./catalog.js";
+import type { CatalogEntry } from "./types.js";
 
 const service = createCatalogService();
 

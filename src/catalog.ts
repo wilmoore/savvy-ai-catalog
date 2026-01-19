@@ -1,6 +1,6 @@
-import type { Catalog, CatalogEntry } from "./types";
-import type { CatalogStore } from "./store";
-import { createStore } from "./store";
+import type { Catalog, CatalogEntry } from "./types.js";
+import type { CatalogStore } from "./store.js";
+import { createStore } from "./store.js";
 
 /**
  * Catalog service for managing entries.
