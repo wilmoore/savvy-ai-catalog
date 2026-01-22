@@ -1,5 +1,5 @@
 {
-  "lastSequence": 3,
+  "lastSequence": 4,
   "entries": [
     {
       "branch": "mvp/catalog",
@@ -8,6 +8,10 @@
     {
       "branch": "feat/catalog-url-fields",
       "adrs": ["003-optional-url-fields-and-update-command.md"]
+    },
+    {
+      "branch": "feat/catalog-expansion-jan-2026-v2",
+      "adrs": ["004-tool-replacement-tracking-fields.md"]
     }
   ]
 }

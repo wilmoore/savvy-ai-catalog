@@ -80,6 +80,21 @@
     "pressureTested": false
   },
   {
+    "name": "ChatGPT Sidebar",
+    "description": "Chrome sidebar extension that provides instant ChatGPT access for writing, summarizing, translating, and Q&A on any webpage",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://chatgptsidebar.io"
+  },
+  {
+    "name": "Tactiq",
+    "description": "Chrome extension that captures meeting transcripts in real time and uses AI to generate summaries, action items, and notes",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://tactiq.io",
+    "pricingUrl": "https://tactiq.io/pricing"
+  },
+  {
     "name": "Vapi AI",
     "description": "A platform for building and deploying voice AI agents",
     "inCurrentStack": false,
@@ -98,6 +113,35 @@
     "pressureTested": false,
     "websiteUrl": "https://artisan.co",
     "pricingUrl": "https://artisan.co/pricing"
+  },
+  {
+    "name": "Clay",
+    "description": "AI-powered revenue workflow platform that enriches leads, automates outbound research, and personalizes sales messages at scale",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.clay.com",
+    "pricingUrl": "https://www.clay.com/pricing",
+    "apiUrl": "https://docs.clay.com"
+  },
+  {
+    "name": "GoHighLevel",
+    "description": "All-in-one CRM, funnel, messaging, and automation platform for agencies and local service businesses",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.gohighlevel.com",
+    "pricingUrl": "https://www.gohighlevel.com/pricing",
+    "affiliateUrl": "https://www.gohighlevel.com/affiliates",
+    "apiUrl": "https://developers.gohighlevel.com"
+  },
+  {
+    "name": "ManyChat",
+    "description": "Messaging automation platform for businesses to build AI-assisted chat flows on Instagram, WhatsApp, Messenger, and SMS",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://manychat.com",
+    "pricingUrl": "https://manychat.com/pricing",
+    "affiliateUrl": "https://manychat.com/partners",
+    "apiUrl": "https://developers.manychat.com"
   },
   {
     "name": "ComfyUI",
@@ -119,10 +163,73 @@
     "pressureTested": false
   },
   {
+    "name": "Newo AI",
+    "description": "AI agent platform that lets teams build autonomous agents to execute business workflows, research, and tasks across tools with minimal coding",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://newo.ai",
+    "pricingUrl": "https://newo.ai/pricing/"
+  },
+  {
+    "name": "n8n",
+    "description": "Open-source workflow automation platform for engineers and operators to build complex, logic-heavy integrations with code-level control",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://n8n.io",
+    "pricingUrl": "https://n8n.io/pricing",
+    "affiliateUrl": "https://n8n.io/partners",
+    "apiUrl": "https://docs.n8n.io"
+  },
+  {
+    "name": "Make",
+    "description": "Visual automation platform for building multi-step workflows across SaaS tools with moderate logic complexity",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.make.com",
+    "pricingUrl": "https://www.make.com/en/pricing",
+    "affiliateUrl": "https://www.make.com/en/partners",
+    "apiUrl": "https://www.make.com/en/api-documentation"
+  },
+  {
+    "name": "Zapier",
+    "description": "No-code automation platform that connects thousands of SaaS tools through trigger-action workflows",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://zapier.com",
+    "pricingUrl": "https://zapier.com/pricing",
+    "affiliateUrl": "https://zapier.com/partners",
+    "apiUrl": "https://platform.zapier.com"
+  },
+  {
     "name": "Gamma",
     "description": "AI-powered tool for creating presentations, documents, and websites from prompts with automatic design and formatting",
     "inCurrentStack": false,
     "pressureTested": false
+  },
+  {
+    "name": "Alai",
+    "description": "AI-powered presentation tool that helps consultants and teams generate structured, on-brand slide decks from prompts and outlines",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://getalai.com",
+    "pricingUrl": "https://getalai.com/pricing",
+    "apiUrl": "https://docs.getalai.com/api"
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "AI-assisted presentation tool that automatically designs professional slides by applying smart layout, spacing, and visual rules",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.beautiful.ai",
+    "pricingUrl": "https://www.beautiful.ai/pricing"
+  },
+  {
+    "name": "Napkin AI",
+    "description": "AI workspace that turns text prompts into structured visuals like diagrams, flowcharts, and sketches for fast thinking and communication",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.napkin.ai",
+    "pricingUrl": "https://www.napkin.ai/pricing"
   },
   {
     "name": "Figma Make",
@@ -319,6 +426,32 @@
     "pricingUrl": "https://www.wordtune.com/pricing"
   },
   {
+    "name": "Lex",
+    "description": "AI-native writing app that helps writers draft, edit, and refine long-form content with real-time language model assistance",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://lex.page",
+    "pricingUrl": "https://lex.page/pricing"
+  },
+  {
+    "name": "Hoppy Copy",
+    "description": "AI-powered email marketing platform that generates newsletters, drip campaigns, and promotional copy for marketers and ecommerce teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.hoppycopy.co",
+    "pricingUrl": "https://www.hoppycopy.co/pricing",
+    "affiliateUrl": "https://www.hoppycopy.co/partners"
+  },
+  {
+    "name": "AdCreative.ai",
+    "description": "AI-powered platform that generates high-converting ad creatives and copy for paid social and display campaigns",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.adcreative.ai",
+    "pricingUrl": "https://www.adcreative.ai/#new-pricing-section",
+    "affiliateUrl": "https://www.adcreative.ai/affiliate"
+  },
+  {
     "name": "Recraft",
     "description": "AI image generation and editing tool focused on style consistency and design assets",
     "inCurrentStack": false,
@@ -396,6 +529,14 @@
     "apiUrl": "https://docs.fireflies.ai"
   },
   {
+    "name": "Supernormal",
+    "description": "AI meeting assistant that automatically records, transcribes, summarizes meetings, and generates action items for teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.supernormal.com",
+    "pricingUrl": "https://www.supernormal.com/pricing"
+  },
+  {
     "name": "Granola",
     "description": "AI notepad for meetings that captures notes without a visible bot joining the call, available on macOS, Windows, and iOS",
     "inCurrentStack": false,
@@ -420,6 +561,15 @@
     "websiteUrl": "https://www.usemotion.com",
     "pricingUrl": "https://www.usemotion.com/pricing",
     "apiUrl": "https://api.usemotion.com/docs"
+  },
+  {
+    "name": "Notion AI",
+    "description": "Embedded AI assistant inside Notion for writing, summarizing, querying, and transforming workspace content",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.notion.so/product/ai",
+    "pricingUrl": "https://www.notion.so/pricing",
+    "apiUrl": "https://developers.notion.com"
   },
   {
     "name": "Otter.ai",
@@ -471,6 +621,16 @@
     "websiteUrl": "https://rewatch.com",
     "pricingUrl": "https://rewatch.com/pricing",
     "apiUrl": "https://rewatch.com/api"
+  },
+  {
+    "name": "Loom",
+    "description": "Async video messaging tool for recording quick screen and camera videos for communication and documentation",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.loom.com",
+    "pricingUrl": "https://www.loom.com/pricing",
+    "affiliateUrl": "https://www.loom.com/affiliates",
+    "apiUrl": "https://developers.loom.com"
   },
   {
     "name": "Nyota",
@@ -637,6 +797,24 @@
     "apiUrl": "https://docs.leonardo.ai"
   },
   {
+    "name": "Playground",
+    "description": "AI image generation and editing platform for creating, remixing, and refining visual assets using diffusion models",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://playground.com",
+    "pricingUrl": "https://playground.com/design/pricing"
+  },
+  {
+    "name": "Dzine",
+    "description": "AI design platform for generating, editing, and transforming images and visual assets via prompts, workflows, and API for creators and teams",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.dzine.ai",
+    "pricingUrl": "https://www.dzine.ai/pricing/",
+    "affiliateUrl": "https://www.dzine.ai/affiliate-program/",
+    "apiUrl": "https://www.dzine.ai/api/"
+  },
+  {
     "name": "NightCafe",
     "description": "Consumer-friendly AI art generator supporting multiple models and community-driven creation",
     "inCurrentStack": false,
@@ -726,6 +904,14 @@
     "apiUrl": "https://docs.replit.com"
   },
   {
+    "name": "Firebase Studio",
+    "description": "Google's AI-assisted app development environment for building, testing, and deploying Firebase-backed applications",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://firebase.google.com/studio",
+    "apiUrl": "https://firebase.google.com/docs"
+  },
+  {
     "name": "v0",
     "description": "AI UI generator that produces production-ready React components from text prompts and design intent",
     "inCurrentStack": false,
@@ -740,6 +926,24 @@
     "pressureTested": false,
     "websiteUrl": "https://rork.ai",
     "pricingUrl": "https://rork.ai/pricing"
+  },
+  {
+    "name": "Blink",
+    "description": "AI-powered website builder that lets founders and marketers generate, edit, and publish landing pages from prompts without writing code",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://blink.new",
+    "pricingUrl": "https://blink.new/pricing",
+    "affiliateUrl": "https://blink.new/affiliates"
+  },
+  {
+    "name": "Durable",
+    "description": "AI website builder that generates a full business website, copy, and basic CRM in minutes for small businesses and solo founders",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://durable.com",
+    "pricingUrl": "https://durable.com/pricing",
+    "affiliateUrl": "https://durable.com/affiliate"
   },
   {
     "name": "Cursor",

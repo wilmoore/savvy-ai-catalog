@@ -48,6 +48,17 @@ export interface CatalogEntry {
    * API documentation URL, if applicable.
    */
   apiUrl?: string;
+
+  /**
+   * Name of the tool that replaced this one in the stack.
+   * Implies this tool was previously in the stack.
+   */
+  replacedBy?: string;
+
+  /**
+   * Why the switch was made to the replacement tool.
+   */
+  replacementReason?: string;
 }
 
 /**
