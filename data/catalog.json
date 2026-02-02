@@ -1014,5 +1014,14 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://antigravity.google/"
+  },
+  {
+    "name": "Remotion",
+    "description": "A developer framework for programmatically generating videos using React and JavaScript",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://www.remotion.dev",
+    "pricingUrl": "https://www.remotion.dev/pricing",
+    "apiUrl": "https://www.remotion.dev/docs"
   }
 ]
