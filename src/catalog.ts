@@ -39,6 +39,8 @@ export class CatalogService {
       ...(entry.pricingUrl && { pricingUrl: entry.pricingUrl.trim() }),
       ...(entry.affiliateUrl && { affiliateUrl: entry.affiliateUrl.trim() }),
       ...(entry.apiUrl && { apiUrl: entry.apiUrl.trim() }),
+      ...(entry.replacedBy && { replacedBy: entry.replacedBy.trim() }),
+      ...(entry.replacementReason && { replacementReason: entry.replacementReason.trim() }),
     });
 
     this.store.save(catalog);
@@ -99,6 +101,12 @@ export class CatalogService {
       }),
       ...(updates.apiUrl !== undefined && {
         apiUrl: updates.apiUrl.trim(),
+      }),
+      ...(updates.replacedBy !== undefined && {
+        replacedBy: updates.replacedBy.trim(),
+      }),
+      ...(updates.replacementReason !== undefined && {
+        replacementReason: updates.replacementReason.trim(),
       }),
     };
 

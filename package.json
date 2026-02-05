@@ -1,6 +1,6 @@
 {
   "name": "savvy-ai-catalog",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A neutral reference catalog for AI tools and terms",
   "type": "module",
   "main": "dist/index.js",

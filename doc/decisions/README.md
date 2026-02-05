@@ -21,3 +21,4 @@ We use the [Michael Nygard format](https://cognitect.com/blog/2011/11/15/documen
 - [001. Use JSON file storage](001-use-json-file-storage.md)
 - [002. Four-attribute entry schema](002-four-attribute-entry-schema.md)
 - [003. Optional URL fields and update command](003-optional-url-fields-and-update-command.md)
+- [004. Tool replacement tracking fields](004-tool-replacement-tracking-fields.md)
