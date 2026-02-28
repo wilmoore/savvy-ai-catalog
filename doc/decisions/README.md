@@ -22,3 +22,4 @@ We use the [Michael Nygard format](https://cognitect.com/blog/2011/11/15/documen
 - [002. Four-attribute entry schema](002-four-attribute-entry-schema.md)
 - [003. Optional URL fields and update command](003-optional-url-fields-and-update-command.md)
 - [004. Tool replacement tracking fields](004-tool-replacement-tracking-fields.md)
+- [005. Add status tracking fields](005-add-status-tracking-fields.md)

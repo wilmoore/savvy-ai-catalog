@@ -108,6 +108,30 @@
       "status": "open",
       "createdAt": "2026-01-17T00:00:08Z",
       "source": "product-brief"
+    },
+    {
+      "id": 10,
+      "title": "Add coding agents to catalog",
+      "description": "Add initial set of coding agents: pi-coding-agent, OpenCode, OpenAI Codex, Gemini CLI, Claude Code, Goose. New fields: evaluating, planned, notes.",
+      "type": "feature",
+      "severity": "high",
+      "phase": "must",
+      "status": "in-progress",
+      "createdAt": "2026-02-28T00:00:00Z",
+      "source": "feature-request",
+      "sourceBranch": "feat/add-coding-agents"
+    },
+    {
+      "id": 11,
+      "title": "Track plugins/extensions/packages per tool",
+      "description": "Add ability to track plugins (Claude Code), extensions (Gemini), and packages (pi) for each tool in the catalog. Different tools use different terminology.",
+      "type": "feature",
+      "severity": "low",
+      "phase": "could",
+      "status": "open",
+      "createdAt": "2026-02-28T00:00:01Z",
+      "source": "feature-request",
+      "sourceBranch": null
     }
   ]
 }
