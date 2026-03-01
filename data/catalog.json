@@ -522,7 +522,7 @@
   {
     "name": "Fireflies.ai",
     "description": "AI meeting assistant that records, transcribes, summarizes, and searches across voice conversations with CRM integrations",
-    "inCurrentStack": false,
+    "inCurrentStack": true,
     "pressureTested": false,
     "websiteUrl": "https://fireflies.ai",
     "pricingUrl": "https://fireflies.ai/pricing",
@@ -538,16 +538,16 @@
   },
   {
     "name": "Granola",
-    "description": "AI notepad for meetings that captures notes without a visible bot joining the call, available on macOS, Windows, and iOS",
-    "inCurrentStack": false,
-    "pressureTested": false,
+    "description": "AI notepad for meetings that captures notes without a visible bot joining the call; its Basic plan offers unlimited notes but limits history to 30 days and removes integrations.",
+    "inCurrentStack": true,
+    "pressureTested": true,
     "websiteUrl": "https://www.granola.ai",
     "pricingUrl": "https://www.granola.ai/pricing"
   },
   {
     "name": "MeetGeek",
     "description": "AI meeting assistant that records, transcribes, summarizes, and extracts key points from Zoom, Google Meet, and Teams meetings",
-    "inCurrentStack": false,
+    "inCurrentStack": true,
     "pressureTested": false,
     "websiteUrl": "https://meetgeek.ai",
     "pricingUrl": "https://meetgeek.ai/pricing",
@@ -1023,5 +1023,64 @@
     "websiteUrl": "https://www.remotion.dev",
     "pricingUrl": "https://www.remotion.dev/pricing",
     "apiUrl": "https://www.remotion.dev/docs"
+  },
+  {
+    "name": "pi-coding-agent",
+    "description": "A CLI-based coding agent built within the pi-mono ecosystem that provides an interactive, tool-augmented AI coding workflow in the terminal, designed for long-running agent sessions and structured task execution.",
+    "inCurrentStack": false,
+    "pressureTested": true,
+    "evaluating": true,
+    "planned": false,
+    "websiteUrl": "https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent"
+  },
+  {
+    "name": "OpenCode",
+    "description": "An open-source, terminal-first AI coding agent that executes tasks directly in your local repo with structured planning and tool use.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "evaluating": true,
+    "planned": false,
+    "websiteUrl": "https://opencode.ai"
+  },
+  {
+    "name": "OpenAI Codex",
+    "description": "OpenAI's code-specialized model family that translates natural language into executable code and powers developer tooling, including GitHub Copilot–style pair programming and CLI-based coding agents.",
+    "inCurrentStack": false,
+    "pressureTested": true,
+    "evaluating": true,
+    "planned": false,
+    "websiteUrl": "https://github.com/openai/codex"
+  },
+  {
+    "name": "Gemini CLI",
+    "description": "Google's official terminal-based interface for interacting with Gemini models, focused on coding workflows, structured planning, and local developer integration.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "evaluating": false,
+    "planned": false,
+    "notes": "Switch to Gemini CLI when Claude Code hits usage limits. Hasn't completed porting Claude Code plugins to Gemini extension format. Commands are *.toml, skills map 1-1, hooks are different, MCP is similar."
+  },
+  {
+    "name": "Claude Code",
+    "description": "A terminal-based AI coding agent by Anthropic that understands your codebase and executes development tasks via natural language.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "evaluating": false,
+    "planned": false,
+    "notes": "Favorite tool in the category. Would use exclusively if not so expensive.",
+    "websiteUrl": "https://www.anthropic.com/claude-code",
+    "pricingUrl": "https://www.anthropic.com/pricing",
+    "apiUrl": "https://docs.anthropic.com"
+  },
+  {
+    "name": "Goose",
+    "description": "A local, open-source AI coding agent that autonomously executes engineering tasks like debugging, refactoring, and deployment using your preferred LLM and external MCP servers.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "evaluating": false,
+    "planned": true,
+    "websiteUrl": "https://block.github.io/goose",
+    "pricingUrl": "Not public",
+    "apiUrl": "https://block.github.io/goose/docs"
   }
 ]
