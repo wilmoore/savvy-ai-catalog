@@ -1,4 +1,5 @@
 {
+  "lastSequence": 13,
   "items": [
     {
       "id": 1,
@@ -116,10 +117,11 @@
       "type": "feature",
       "severity": "high",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-02-28T00:00:00Z",
       "source": "feature-request",
-      "sourceBranch": "feat/add-coding-agents"
+      "sourceBranch": "feat/add-coding-agents",
+      "resolvedAt": "2026-03-01T00:00:00Z"
     },
     {
       "id": 11,
@@ -132,6 +134,30 @@
       "createdAt": "2026-02-28T00:00:01Z",
       "source": "feature-request",
       "sourceBranch": null
+    },
+    {
+      "id": 12,
+      "title": "Document AI agent limitations and add Lemon & Attio",
+      "description": "Capture GPT-5.1 Codex screenshot limitations, Gemini reliability issues, pi-coding-agent plan-mode gap, and add detailed catalog entries for Lemon and Attio with current usage notes.",
+      "type": "feature",
+      "severity": "medium",
+      "phase": "should",
+      "status": "in-progress",
+      "createdAt": "2026-03-02T11:25:00Z",
+      "source": "/pro:feature",
+      "sourceBranch": "feat/document-gpt51-screenshot-limit"
+    },
+    {
+      "id": 13,
+      "title": "Allow unsetting boolean flags via CLI update",
+      "description": "Extend `catalog update` so boolean flags (inCurrentStack, pressureTested, evaluating, planned) can be explicitly set to false, not only set to true. This avoids manual JSON edits when removing tools from the stack.",
+      "type": "feature",
+      "severity": "low",
+      "phase": "should",
+      "status": "open",
+      "createdAt": "2026-04-13T21:44:28.941Z",
+      "source": "/pro:pr",
+      "sourceBranch": "feat/document-gpt51-screenshot-limit"
     }
   ]
 }

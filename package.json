@@ -1,6 +1,6 @@
 {
   "name": "savvy-ai-catalog",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A neutral reference catalog for AI tools and terms",
   "type": "module",
   "main": "dist/index.js",
@@ -12,7 +12,12 @@
     "build": "tsc",
     "start": "node dist/cli.js"
   },
-  "keywords": ["ai", "catalog", "tools", "reference"],
+  "keywords": [
+    "ai",
+    "catalog",
+    "tools",
+    "reference"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
