@@ -1,5 +1,5 @@
 {
-  "lastSequence": 12,
+  "lastSequence": 13,
   "items": [
     {
       "id": 1,
@@ -145,6 +145,18 @@
       "status": "in-progress",
       "createdAt": "2026-03-02T11:25:00Z",
       "source": "/pro:feature",
+      "sourceBranch": "feat/document-gpt51-screenshot-limit"
+    },
+    {
+      "id": 13,
+      "title": "Allow unsetting boolean flags via CLI update",
+      "description": "Extend `catalog update` so boolean flags (inCurrentStack, pressureTested, evaluating, planned) can be explicitly set to false, not only set to true. This avoids manual JSON edits when removing tools from the stack.",
+      "type": "feature",
+      "severity": "low",
+      "phase": "should",
+      "status": "open",
+      "createdAt": "2026-04-13T21:44:28.941Z",
+      "source": "/pro:pr",
       "sourceBranch": "feat/document-gpt51-screenshot-limit"
     }
   ]
