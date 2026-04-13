@@ -3,14 +3,16 @@
     "name": "NotebookLM",
     "description": "A Google AI tool that turns documents into an interactive AI research assistant",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "knowledge-tools"
   },
   {
     "name": "Pomelli",
     "description": "An experimental, AI-powered marketing tool from Google Labs designed to build scalable, on-brand content to help connect with audiences faster",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://labs.google.com/pomelli/about/"
+    "websiteUrl": "https://labs.google.com/pomelli/about/",
+    "category": "design-tools"
   },
   {
     "name": "Google Gemini",
@@ -19,19 +21,23 @@
     "pressureTested": false,
     "websiteUrl": "https://ai.google",
     "pricingUrl": "https://ai.google.dev/pricing",
-    "apiUrl": "https://ai.google.dev/docs"
+    "apiUrl": "https://ai.google.dev/docs",
+    "notes": "Quality is strong when it actually responds, but the core Gemini model (and CLI) frequently sits in busy/timeout loops which kills flow, so I often favor cheaper-yet-reliable models. Tracking new claims from Addy Osmani about Gemini 3.1 Flash-Lite (LinkedIn 2026-03-02: 80% faster than 2.5 Flash, $0.25/M input, $1.50/M output, tunable thinking levels), but need to verify on real projects before trusting it. The YouTube walkthrough at https://www.youtube.com/watch?v=pJylXFAC87A echoed my own experience: Gemini shines for design tasks yet still struggles with complex coding beyond mockups.",
+    "category": "models"
   },
   {
     "name": "Growth Hub",
     "description": "A business growth and marketing platform",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "sales-crm"
   },
   {
     "name": "HeyGen",
     "description": "An AI video generation platform for creating avatar-based videos",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "video-generation"
   },
   {
     "name": "ElevenLabs",
@@ -41,13 +47,15 @@
     "websiteUrl": "https://elevenlabs.io",
     "pricingUrl": "https://elevenlabs.io/pricing",
     "affiliateUrl": "https://elevenlabs.io/affiliates",
-    "apiUrl": "https://elevenlabs.io/docs"
+    "apiUrl": "https://elevenlabs.io/docs",
+    "category": "audio-generation"
   },
   {
     "name": "Claude Desktop",
     "description": "Anthropic's desktop and mobile app for conversing with Claude AI",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "assistant-platforms"
   },
   {
     "name": "Claude Code",
@@ -56,7 +64,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.anthropic.com/claude-code",
     "pricingUrl": "https://www.anthropic.com/pricing",
-    "apiUrl": "https://docs.anthropic.com"
+    "apiUrl": "https://docs.anthropic.com",
+    "category": "agent-harnesses"
   },
   {
     "name": "ChatGPT",
@@ -65,26 +74,41 @@
     "pressureTested": false,
     "websiteUrl": "https://chatgpt.com",
     "pricingUrl": "https://chatgpt.com/pricing",
-    "apiUrl": "https://platform.openai.com/docs"
+    "apiUrl": "https://platform.openai.com/docs",
+    "category": "models"
   },
   {
     "name": "Claude Code SDK",
     "description": "A developer toolkit for building custom agents with Claude",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "agent-harnesses"
   },
   {
     "name": "Claude In Chrome",
     "description": "A Chrome extension for using Claude AI within the browser",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "assistant-platforms"
   },
   {
     "name": "ChatGPT Sidebar",
     "description": "Chrome sidebar extension that provides instant ChatGPT access for writing, summarizing, translating, and Q&A on any webpage",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://chatgptsidebar.io"
+    "websiteUrl": "https://chatgptsidebar.io",
+    "category": "assistant-platforms"
+  },
+  {
+    "name": "Sider",
+    "description": "Browser extension that embeds multiple AI models into webpages to read, summarize, write, and interact with content across tabs, files, and links.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://sider.ai",
+    "pricingUrl": "https://sider.ai/pricing",
+    "affiliateUrl": "https://sider.ai/affiliate",
+    "notes": "AI-assisted research stack tool: launches as a Chrome sidebar with multi-model switching (ChatGPT, Claude, Gemini, etc.) so I can summarize or draft directly on any page. Official walkthrough (https://www.youtube.com/watch?v=0bTc2DdE0tM) demos chat, spreadsheet/Q&A, Painter image generation, and PDF/link/chat features. Competes with ChatGPT Sidebar/Merlin but offers broader provider coverage.",
+    "category": "assistant-platforms"
   },
   {
     "name": "Tactiq",
@@ -92,19 +116,22 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://tactiq.io",
-    "pricingUrl": "https://tactiq.io/pricing"
+    "pricingUrl": "https://tactiq.io/pricing",
+    "category": "meetings"
   },
   {
     "name": "Vapi AI",
     "description": "A platform for building and deploying voice AI agents",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "audio-generation"
   },
   {
     "name": "Retell AI",
     "description": "A platform for building conversational voice AI applications",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "audio-generation"
   },
   {
     "name": "Artisan",
@@ -112,7 +139,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://artisan.co",
-    "pricingUrl": "https://artisan.co/pricing"
+    "pricingUrl": "https://artisan.co/pricing",
+    "category": "sales-crm"
   },
   {
     "name": "Clay",
@@ -121,7 +149,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.clay.com",
     "pricingUrl": "https://www.clay.com/pricing",
-    "apiUrl": "https://docs.clay.com"
+    "apiUrl": "https://docs.clay.com",
+    "category": "sales-crm"
   },
   {
     "name": "GoHighLevel",
@@ -131,7 +160,8 @@
     "websiteUrl": "https://www.gohighlevel.com",
     "pricingUrl": "https://www.gohighlevel.com/pricing",
     "affiliateUrl": "https://www.gohighlevel.com/affiliates",
-    "apiUrl": "https://developers.gohighlevel.com"
+    "apiUrl": "https://developers.gohighlevel.com",
+    "category": "sales-crm"
   },
   {
     "name": "ManyChat",
@@ -141,26 +171,30 @@
     "websiteUrl": "https://manychat.com",
     "pricingUrl": "https://manychat.com/pricing",
     "affiliateUrl": "https://manychat.com/partners",
-    "apiUrl": "https://developers.manychat.com"
+    "apiUrl": "https://developers.manychat.com",
+    "category": "sales-crm"
   },
   {
     "name": "ComfyUI",
     "description": "Node-based GUI for Stable Diffusion with modular workflow design for image generation pipelines",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://github.com/comfyanonymous/ComfyUI"
+    "websiteUrl": "https://github.com/comfyanonymous/ComfyUI",
+    "category": "image-generation"
   },
   {
     "name": "Pykaso",
     "description": "Generative AI platform for ultra-realistic images and videos with custom LoRa training, image-to-image, skin enhancement, and face swap",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "image-generation"
   },
   {
     "name": "Lindy",
     "description": "AI agent platform for building custom AI employees to automate workflows like email, scheduling, sales, and customer support",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "agent-harnesses"
   },
   {
     "name": "Newo AI",
@@ -168,7 +202,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://newo.ai",
-    "pricingUrl": "https://newo.ai/pricing/"
+    "pricingUrl": "https://newo.ai/pricing/",
+    "category": "agent-harnesses"
   },
   {
     "name": "n8n",
@@ -178,7 +213,8 @@
     "websiteUrl": "https://n8n.io",
     "pricingUrl": "https://n8n.io/pricing",
     "affiliateUrl": "https://n8n.io/partners",
-    "apiUrl": "https://docs.n8n.io"
+    "apiUrl": "https://docs.n8n.io",
+    "category": "workflow-automation"
   },
   {
     "name": "Make",
@@ -188,7 +224,8 @@
     "websiteUrl": "https://www.make.com",
     "pricingUrl": "https://www.make.com/en/pricing",
     "affiliateUrl": "https://www.make.com/en/partners",
-    "apiUrl": "https://www.make.com/en/api-documentation"
+    "apiUrl": "https://www.make.com/en/api-documentation",
+    "category": "workflow-automation"
   },
   {
     "name": "Zapier",
@@ -198,13 +235,15 @@
     "websiteUrl": "https://zapier.com",
     "pricingUrl": "https://zapier.com/pricing",
     "affiliateUrl": "https://zapier.com/partners",
-    "apiUrl": "https://platform.zapier.com"
+    "apiUrl": "https://platform.zapier.com",
+    "category": "workflow-automation"
   },
   {
     "name": "Gamma",
     "description": "AI-powered tool for creating presentations, documents, and websites from prompts with automatic design and formatting",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "design-tools"
   },
   {
     "name": "Alai",
@@ -213,7 +252,8 @@
     "pressureTested": false,
     "websiteUrl": "https://getalai.com",
     "pricingUrl": "https://getalai.com/pricing",
-    "apiUrl": "https://docs.getalai.com/api"
+    "apiUrl": "https://docs.getalai.com/api",
+    "category": "design-tools"
   },
   {
     "name": "Beautiful.ai",
@@ -221,7 +261,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.beautiful.ai",
-    "pricingUrl": "https://www.beautiful.ai/pricing"
+    "pricingUrl": "https://www.beautiful.ai/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Napkin AI",
@@ -229,25 +270,29 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.napkin.ai",
-    "pricingUrl": "https://www.napkin.ai/pricing"
+    "pricingUrl": "https://www.napkin.ai/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Figma Make",
     "description": "AI feature in Figma that generates UI designs, components, and prototypes from text prompts",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "design-tools"
   },
   {
     "name": "Poppy AI",
     "description": "AI content creation and research platform with visual whiteboard interface for brainstorming, summarizing, and generating content from videos, links, and text",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "design-tools"
   },
   {
     "name": "Blotato",
     "description": "AI content creation and social media automation platform for generating posts, faceless videos, repurposing long-form content, and multi-channel scheduling",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "design-tools"
   },
   {
     "name": "OpusClip",
@@ -256,25 +301,29 @@
     "pressureTested": false,
     "websiteUrl": "https://www.opus.pro",
     "pricingUrl": "https://www.opus.pro/pricing",
-    "affiliateUrl": "https://www.opus.pro/affiliate"
+    "affiliateUrl": "https://www.opus.pro/affiliate",
+    "category": "design-tools"
   },
   {
     "name": "Submagic",
     "description": "AI-powered caption generator for short-form videos with animated subtitles, emojis, and effects for social media content",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "design-tools"
   },
   {
     "name": "Descript",
     "description": "AI-powered audio and video editor with transcript-based editing, voice cloning (Overdub), filler word removal, and screen recording",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "audio-generation"
   },
   {
     "name": "Sora",
     "description": "OpenAI's text-to-video AI model that generates realistic videos from text prompts",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "video-generation"
   },
   {
     "name": "Synthesia",
@@ -282,37 +331,43 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.synthesia.io",
-    "pricingUrl": "https://www.synthesia.io/pricing"
+    "pricingUrl": "https://www.synthesia.io/pricing",
+    "category": "video-generation"
   },
   {
     "name": "Pika",
     "description": "AI video generation and editing tool for creating and modifying videos from text and images",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "video-generation"
   },
   {
     "name": "Veo",
     "description": "Google DeepMind's text-to-video AI model for generating high-quality videos from prompts",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "video-generation"
   },
   {
     "name": "Grok",
     "description": "xAI's conversational AI assistant with real-time X/Twitter integration and multimodal capabilities",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "models"
   },
   {
     "name": "Vapi",
     "description": "Voice AI platform for building conversational voice agents and assistants with real-time speech capabilities",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "audio-generation"
   },
   {
     "name": "Retell",
     "description": "Voice AI platform for creating human-like AI phone agents for sales, support, and appointments",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "audio-generation"
   },
   {
     "name": "MidJourney",
@@ -320,32 +375,37 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.midjourney.com",
-    "pricingUrl": "https://www.midjourney.com/pricing"
+    "pricingUrl": "https://www.midjourney.com/pricing",
+    "category": "image-generation"
   },
   {
     "name": "Ideogram",
     "description": "AI image generator with strong text rendering capabilities for creating images with accurate typography and lettering",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "image-generation"
   },
   {
     "name": "Hype Jet GPT",
     "description": "Custom GPT for ChatGPT that generates cinematic ad scripts and stylized marketing copy for high-impact storytelling",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "assistant-platforms"
   },
   {
     "name": "DALL·E",
     "description": "OpenAI's AI image generation model that creates and edits images from natural language prompts",
     "inCurrentStack": false,
-    "pressureTested": false
+    "pressureTested": false,
+    "category": "image-generation"
   },
   {
     "name": "11x",
     "description": "AI-powered digital workers for sales automation, including Alice (AI SDR) and Julian (AI phone agent) for revenue teams",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://www.11x.ai/"
+    "websiteUrl": "https://www.11x.ai/",
+    "category": "sales-crm"
   },
   {
     "name": "Blocks",
@@ -354,7 +414,8 @@
     "pressureTested": false,
     "websiteUrl": "https://blocks.diy",
     "pricingUrl": "https://blocks.diy/website/pricing",
-    "affiliateUrl": "https://blocks.diy/website/affiliates"
+    "affiliateUrl": "https://blocks.diy/website/affiliates",
+    "category": "agent-harnesses"
   },
   {
     "name": "Creatify",
@@ -363,7 +424,8 @@
     "pressureTested": false,
     "websiteUrl": "https://creatify.ai/",
     "pricingUrl": "https://creatify.ai/pricing",
-    "affiliateUrl": "https://creatify.ai/affiliate"
+    "affiliateUrl": "https://creatify.ai/affiliate",
+    "category": "design-tools"
   },
   {
     "name": "Manus",
@@ -372,7 +434,8 @@
     "pressureTested": false,
     "websiteUrl": "https://manus.im",
     "pricingUrl": "https://manus.im/pricing",
-    "apiUrl": "https://open.manus.ai/docs"
+    "apiUrl": "https://open.manus.ai/docs",
+    "category": "agent-harnesses"
   },
   {
     "name": "Claude",
@@ -381,7 +444,8 @@
     "pressureTested": false,
     "websiteUrl": "https://claude.ai",
     "pricingUrl": "https://www.anthropic.com/pricing",
-    "apiUrl": "https://docs.anthropic.com"
+    "apiUrl": "https://docs.anthropic.com",
+    "category": "models"
   },
   {
     "name": "Perplexity",
@@ -390,7 +454,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.perplexity.ai",
     "pricingUrl": "https://www.perplexity.ai/pro",
-    "apiUrl": "https://docs.perplexity.ai"
+    "apiUrl": "https://docs.perplexity.ai",
+    "category": "knowledge-tools"
   },
   {
     "name": "Suno",
@@ -398,7 +463,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://suno.ai",
-    "pricingUrl": "https://suno.ai/pricing"
+    "pricingUrl": "https://suno.ai/pricing",
+    "category": "audio-generation"
   },
   {
     "name": "Runway",
@@ -407,7 +473,8 @@
     "pressureTested": false,
     "websiteUrl": "https://runwayml.com",
     "pricingUrl": "https://runwayml.com/pricing",
-    "apiUrl": "https://docs.runwayml.com"
+    "apiUrl": "https://docs.runwayml.com",
+    "category": "video-generation"
   },
   {
     "name": "Luma",
@@ -415,7 +482,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://lumalabs.ai",
-    "pricingUrl": "https://lumalabs.ai/pricing"
+    "pricingUrl": "https://lumalabs.ai/pricing",
+    "category": "video-generation"
   },
   {
     "name": "Wordtune",
@@ -423,7 +491,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.wordtune.com",
-    "pricingUrl": "https://www.wordtune.com/pricing"
+    "pricingUrl": "https://www.wordtune.com/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Lex",
@@ -431,7 +500,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://lex.page",
-    "pricingUrl": "https://lex.page/pricing"
+    "pricingUrl": "https://lex.page/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Hoppy Copy",
@@ -440,7 +510,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.hoppycopy.co",
     "pricingUrl": "https://www.hoppycopy.co/pricing",
-    "affiliateUrl": "https://www.hoppycopy.co/partners"
+    "affiliateUrl": "https://www.hoppycopy.co/partners",
+    "category": "sales-crm"
   },
   {
     "name": "AdCreative.ai",
@@ -449,7 +520,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.adcreative.ai",
     "pricingUrl": "https://www.adcreative.ai/#new-pricing-section",
-    "affiliateUrl": "https://www.adcreative.ai/affiliate"
+    "affiliateUrl": "https://www.adcreative.ai/affiliate",
+    "category": "sales-crm"
   },
   {
     "name": "Recraft",
@@ -457,7 +529,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.recraft.ai",
-    "pricingUrl": "https://www.recraft.ai/pricing"
+    "pricingUrl": "https://www.recraft.ai/pricing",
+    "category": "image-generation"
   },
   {
     "name": "PicWish",
@@ -466,7 +539,8 @@
     "pressureTested": false,
     "websiteUrl": "https://picwish.com",
     "pricingUrl": "https://picwish.com/pricing",
-    "apiUrl": "https://picwish.com/api"
+    "apiUrl": "https://picwish.com/api",
+    "category": "image-generation"
   },
   {
     "name": "RecCloud",
@@ -474,7 +548,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://reccloud.com",
-    "pricingUrl": "https://reccloud.com/pricing"
+    "pricingUrl": "https://reccloud.com/pricing",
+    "category": "design-tools"
   },
   {
     "name": "SkySnail",
@@ -482,7 +557,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://skysnail.ai",
-    "pricingUrl": "https://skysnail.ai/pricing"
+    "pricingUrl": "https://skysnail.ai/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Syllaby",
@@ -491,7 +567,8 @@
     "pressureTested": false,
     "websiteUrl": "https://syllaby.com",
     "pricingUrl": "https://syllaby.com/pricing",
-    "affiliateUrl": "https://syllaby.com/affiliate"
+    "affiliateUrl": "https://syllaby.com/affiliate",
+    "category": "design-tools"
   },
   {
     "name": "PixelMotion",
@@ -500,7 +577,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.pixelmotion.io",
     "pricingUrl": "https://www.pixelmotion.io/pricing",
-    "apiUrl": "https://api.pixelmotion.io"
+    "apiUrl": "https://api.pixelmotion.io",
+    "category": "design-tools"
   },
   {
     "name": "Luma AI",
@@ -509,7 +587,8 @@
     "pressureTested": false,
     "websiteUrl": "https://luma.ai",
     "pricingUrl": "https://lumalabs.ai/pricing",
-    "apiUrl": "https://lumalabs.ai/api"
+    "apiUrl": "https://lumalabs.ai/api",
+    "category": "video-generation"
   },
   {
     "name": "Fathom",
@@ -517,7 +596,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.fathom.video",
-    "pricingUrl": "https://www.fathom.video/pricing"
+    "pricingUrl": "https://www.fathom.video/pricing",
+    "category": "meetings"
   },
   {
     "name": "Fireflies.ai",
@@ -526,7 +606,8 @@
     "pressureTested": false,
     "websiteUrl": "https://fireflies.ai",
     "pricingUrl": "https://fireflies.ai/pricing",
-    "apiUrl": "https://docs.fireflies.ai"
+    "apiUrl": "https://docs.fireflies.ai",
+    "category": "meetings"
   },
   {
     "name": "Supernormal",
@@ -534,7 +615,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.supernormal.com",
-    "pricingUrl": "https://www.supernormal.com/pricing"
+    "pricingUrl": "https://www.supernormal.com/pricing",
+    "category": "meetings"
   },
   {
     "name": "Granola",
@@ -542,7 +624,8 @@
     "inCurrentStack": true,
     "pressureTested": true,
     "websiteUrl": "https://www.granola.ai",
-    "pricingUrl": "https://www.granola.ai/pricing"
+    "pricingUrl": "https://www.granola.ai/pricing",
+    "category": "meetings"
   },
   {
     "name": "MeetGeek",
@@ -551,7 +634,8 @@
     "pressureTested": false,
     "websiteUrl": "https://meetgeek.ai",
     "pricingUrl": "https://meetgeek.ai/pricing",
-    "apiUrl": "https://meetgeek.ai/go/api"
+    "apiUrl": "https://meetgeek.ai/go/api",
+    "category": "meetings"
   },
   {
     "name": "Motion",
@@ -560,7 +644,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.usemotion.com",
     "pricingUrl": "https://www.usemotion.com/pricing",
-    "apiUrl": "https://api.usemotion.com/docs"
+    "apiUrl": "https://api.usemotion.com/docs",
+    "category": "workflow-automation"
   },
   {
     "name": "Notion AI",
@@ -569,7 +654,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.notion.so/product/ai",
     "pricingUrl": "https://www.notion.so/pricing",
-    "apiUrl": "https://developers.notion.com"
+    "apiUrl": "https://developers.notion.com",
+    "category": "knowledge-tools"
   },
   {
     "name": "Otter.ai",
@@ -578,7 +664,8 @@
     "pressureTested": false,
     "websiteUrl": "https://otter.ai",
     "pricingUrl": "https://otter.ai/pricing",
-    "apiUrl": "https://otter.ai/api"
+    "apiUrl": "https://otter.ai/api",
+    "category": "meetings"
   },
   {
     "name": "Recall.ai",
@@ -587,7 +674,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.recall.ai",
     "pricingUrl": "https://www.recall.ai/pricing",
-    "apiUrl": "https://docs.recall.ai"
+    "apiUrl": "https://docs.recall.ai",
+    "category": "meetings"
   },
   {
     "name": "Avoma",
@@ -595,7 +683,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.avoma.com",
-    "pricingUrl": "https://www.avoma.com/pricing"
+    "pricingUrl": "https://www.avoma.com/pricing",
+    "category": "meetings"
   },
   {
     "name": "tl;dv",
@@ -603,7 +692,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://tldv.io",
-    "pricingUrl": "https://tldv.io/app/pricing"
+    "pricingUrl": "https://tldv.io/app/pricing",
+    "category": "meetings"
   },
   {
     "name": "Equal Time",
@@ -611,7 +701,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://equaltime.io",
-    "pricingUrl": "https://equaltime.io/pricing"
+    "pricingUrl": "https://equaltime.io/pricing",
+    "category": "meetings"
   },
   {
     "name": "Rewatch",
@@ -620,7 +711,8 @@
     "pressureTested": false,
     "websiteUrl": "https://rewatch.com",
     "pricingUrl": "https://rewatch.com/pricing",
-    "apiUrl": "https://rewatch.com/api"
+    "apiUrl": "https://rewatch.com/api",
+    "category": "meetings"
   },
   {
     "name": "Loom",
@@ -630,7 +722,8 @@
     "websiteUrl": "https://www.loom.com",
     "pricingUrl": "https://www.loom.com/pricing",
     "affiliateUrl": "https://www.loom.com/affiliates",
-    "apiUrl": "https://developers.loom.com"
+    "apiUrl": "https://developers.loom.com",
+    "category": "meetings"
   },
   {
     "name": "Nyota",
@@ -638,7 +731,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.nyota.ai",
-    "pricingUrl": "https://www.nyota.ai/pricing"
+    "pricingUrl": "https://www.nyota.ai/pricing",
+    "category": "meetings"
   },
   {
     "name": "Fellow",
@@ -647,7 +741,8 @@
     "pressureTested": false,
     "websiteUrl": "https://fellow.ai",
     "pricingUrl": "https://fellow.ai/pricing",
-    "apiUrl": "https://fellow.ai/api"
+    "apiUrl": "https://fellow.ai/api",
+    "category": "meetings"
   },
   {
     "name": "Pictory",
@@ -656,7 +751,8 @@
     "pressureTested": false,
     "websiteUrl": "https://pictory.ai",
     "pricingUrl": "https://pictory.ai/pricing",
-    "affiliateUrl": "https://pictory.ai/affiliate"
+    "affiliateUrl": "https://pictory.ai/affiliate",
+    "category": "design-tools"
   },
   {
     "name": "Photoroom",
@@ -665,7 +761,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.photoroom.com",
     "pricingUrl": "https://www.photoroom.com/pricing",
-    "apiUrl": "https://www.photoroom.com/api"
+    "apiUrl": "https://www.photoroom.com/api",
+    "category": "design-tools"
   },
   {
     "name": "OpenArt",
@@ -673,7 +770,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://openart.ai",
-    "pricingUrl": "https://openart.ai/pricing"
+    "pricingUrl": "https://openart.ai/pricing",
+    "category": "image-generation"
   },
   {
     "name": "Kling AI",
@@ -681,7 +779,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://klingai.com",
-    "pricingUrl": "https://klingai.com/pricing"
+    "pricingUrl": "https://klingai.com/pricing",
+    "category": "video-generation"
   },
   {
     "name": "AKOOL",
@@ -691,14 +790,16 @@
     "websiteUrl": "https://akool.com",
     "pricingUrl": "https://akool.com/pricing",
     "affiliateUrl": "https://akool.com/partners",
-    "apiUrl": "https://docs.akool.com"
+    "apiUrl": "https://docs.akool.com",
+    "category": "audio-generation"
   },
   {
     "name": "Omnime",
     "description": "AI-powered content automation platform that creates hyper-realistic social media photos and short videos using a trained digital influencer for consistent brand production",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://www.omnime.ai"
+    "websiteUrl": "https://www.omnime.ai",
+    "category": "audio-generation"
   },
   {
     "name": "MimicPC",
@@ -707,7 +808,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.mimicpc.com",
     "pricingUrl": "https://www.mimicpc.com/pricing",
-    "affiliateUrl": "https://www.mimicpc.com/learn/affiliate-program"
+    "affiliateUrl": "https://www.mimicpc.com/learn/affiliate-program",
+    "category": "image-generation"
   },
   {
     "name": "fal",
@@ -716,14 +818,16 @@
     "pressureTested": false,
     "websiteUrl": "https://fal.ai",
     "pricingUrl": "https://fal.ai/pricing",
-    "apiUrl": "https://fal.ai/docs"
+    "apiUrl": "https://fal.ai/docs",
+    "category": "image-generation"
   },
   {
     "name": "Affogato",
     "description": "AI platform for managing, evaluating, and improving generative media workflows, with a focus on image and video quality, testing, and iteration",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://affogato.ai"
+    "websiteUrl": "https://affogato.ai",
+    "category": "image-generation"
   },
   {
     "name": "Flux AI",
@@ -731,7 +835,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://flux-ai.io",
-    "pricingUrl": "https://flux-ai.io/pricing"
+    "pricingUrl": "https://flux-ai.io/pricing",
+    "category": "image-generation"
   },
   {
     "name": "Invoke",
@@ -739,7 +844,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://invoke.ai",
-    "apiUrl": "https://invoke-ai.github.io/InvokeAI/"
+    "apiUrl": "https://invoke-ai.github.io/InvokeAI/",
+    "category": "image-generation"
   },
   {
     "name": "ThinkDiffusion",
@@ -748,35 +854,40 @@
     "pressureTested": false,
     "websiteUrl": "https://thinkdiffusion.com",
     "pricingUrl": "https://thinkdiffusion.com/pricing",
-    "affiliateUrl": "https://thinkdiffusion.com/affiliate"
+    "affiliateUrl": "https://thinkdiffusion.com/affiliate",
+    "category": "image-generation"
   },
   {
     "name": "Google Veo",
     "description": "Text-to-video generation model by Google that creates high-fidelity cinematic video from prompts for creators and studios",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://deepmind.google/technologies/veo/"
+    "websiteUrl": "https://deepmind.google/technologies/veo/",
+    "category": "video-generation"
   },
   {
     "name": "Seedance",
     "description": "AI video generation platform focused on stylized motion, choreography, and expressive animation from text or references",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://seedance.ai"
+    "websiteUrl": "https://seedance.ai",
+    "category": "video-generation"
   },
   {
     "name": "LTX Studio",
     "description": "AI filmmaking platform for generating long-form, story-consistent videos with cinematic control",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://ltx.studio"
+    "websiteUrl": "https://ltx.studio",
+    "category": "video-generation"
   },
   {
     "name": "Stable Diffusion",
     "description": "Open-source text-to-image diffusion model for generating and editing images locally or via APIs, used by developers, artists, and product teams",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://stability.ai/stable-diffusion"
+    "websiteUrl": "https://stability.ai/stable-diffusion",
+    "category": "image-generation"
   },
   {
     "name": "Freepik AI",
@@ -785,7 +896,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.freepik.com",
     "pricingUrl": "https://www.freepik.com/pricing",
-    "affiliateUrl": "https://contributor.freepik.com"
+    "affiliateUrl": "https://contributor.freepik.com",
+    "category": "image-generation"
   },
   {
     "name": "Leonardo.ai",
@@ -794,7 +906,8 @@
     "pressureTested": false,
     "websiteUrl": "https://leonardo.ai",
     "pricingUrl": "https://leonardo.ai/pricing",
-    "apiUrl": "https://docs.leonardo.ai"
+    "apiUrl": "https://docs.leonardo.ai",
+    "category": "image-generation"
   },
   {
     "name": "Playground",
@@ -802,7 +915,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://playground.com",
-    "pricingUrl": "https://playground.com/design/pricing"
+    "pricingUrl": "https://playground.com/design/pricing",
+    "category": "image-generation"
   },
   {
     "name": "Dzine",
@@ -812,7 +926,8 @@
     "websiteUrl": "https://www.dzine.ai",
     "pricingUrl": "https://www.dzine.ai/pricing/",
     "affiliateUrl": "https://www.dzine.ai/affiliate-program/",
-    "apiUrl": "https://www.dzine.ai/api/"
+    "apiUrl": "https://www.dzine.ai/api/",
+    "category": "image-generation"
   },
   {
     "name": "NightCafe",
@@ -821,7 +936,8 @@
     "pressureTested": false,
     "websiteUrl": "https://nightcafe.studio",
     "pricingUrl": "https://nightcafe.studio/pricing",
-    "affiliateUrl": "https://nightcafe.studio/affiliate"
+    "affiliateUrl": "https://nightcafe.studio/affiliate",
+    "category": "image-generation"
   },
   {
     "name": "Imagen 2",
@@ -829,7 +945,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://deepmind.google/technologies/imagen-2/",
-    "apiUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/image/overview"
+    "apiUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/image/overview",
+    "category": "image-generation"
   },
   {
     "name": "Enhancor",
@@ -837,7 +954,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://enhancor.ai",
-    "pricingUrl": "https://enhancor.ai/pricing"
+    "pricingUrl": "https://enhancor.ai/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Kittl",
@@ -845,14 +963,16 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://www.kittl.com",
-    "pricingUrl": "https://www.kittl.com/pricing"
+    "pricingUrl": "https://www.kittl.com/pricing",
+    "category": "design-tools"
   },
   {
     "name": "PhotoBear",
     "description": "AI photo enhancement and generation tool focused on profile photos, avatars, and personal branding imagery",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://photobear.io"
+    "websiteUrl": "https://photobear.io",
+    "category": "design-tools"
   },
   {
     "name": "Vector Magic",
@@ -860,7 +980,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://vectormagic.com",
-    "pricingUrl": "https://vectormagic.com/pricing"
+    "pricingUrl": "https://vectormagic.com/pricing",
+    "category": "design-tools"
   },
   {
     "name": "Vectorizer.AI",
@@ -869,14 +990,16 @@
     "pressureTested": false,
     "websiteUrl": "https://vectorizer.ai",
     "pricingUrl": "https://vectorizer.ai/pricing",
-    "apiUrl": "https://vectorizer.ai/api"
+    "apiUrl": "https://vectorizer.ai/api",
+    "category": "design-tools"
   },
   {
     "name": "Base44",
     "description": "AI-powered app builder that turns natural language prompts into full-stack web applications with auth, database, and deployment handled automatically",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://base44.com"
+    "websiteUrl": "https://base44.com",
+    "category": "dev-environments"
   },
   {
     "name": "Bolt",
@@ -884,7 +1007,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://bolt.new",
-    "pricingUrl": "https://bolt.new/pricing"
+    "pricingUrl": "https://bolt.new/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Lovable",
@@ -892,7 +1016,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://lovable.dev",
-    "pricingUrl": "https://lovable.dev/pricing"
+    "pricingUrl": "https://lovable.dev/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Replit",
@@ -901,7 +1026,8 @@
     "pressureTested": false,
     "websiteUrl": "https://replit.com",
     "pricingUrl": "https://replit.com/pricing",
-    "apiUrl": "https://docs.replit.com"
+    "apiUrl": "https://docs.replit.com",
+    "category": "dev-environments"
   },
   {
     "name": "Firebase Studio",
@@ -909,7 +1035,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://firebase.google.com/studio",
-    "apiUrl": "https://firebase.google.com/docs"
+    "apiUrl": "https://firebase.google.com/docs",
+    "category": "dev-environments"
   },
   {
     "name": "v0",
@@ -917,7 +1044,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://v0.dev",
-    "pricingUrl": "https://v0.dev/pricing"
+    "pricingUrl": "https://v0.dev/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Rork",
@@ -925,7 +1053,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://rork.ai",
-    "pricingUrl": "https://rork.ai/pricing"
+    "pricingUrl": "https://rork.ai/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Blink",
@@ -934,7 +1063,8 @@
     "pressureTested": false,
     "websiteUrl": "https://blink.new",
     "pricingUrl": "https://blink.new/pricing",
-    "affiliateUrl": "https://blink.new/affiliates"
+    "affiliateUrl": "https://blink.new/affiliates",
+    "category": "dev-environments"
   },
   {
     "name": "Durable",
@@ -943,7 +1073,8 @@
     "pressureTested": false,
     "websiteUrl": "https://durable.com",
     "pricingUrl": "https://durable.com/pricing",
-    "affiliateUrl": "https://durable.com/affiliate"
+    "affiliateUrl": "https://durable.com/affiliate",
+    "category": "dev-environments"
   },
   {
     "name": "Cursor",
@@ -951,14 +1082,16 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://cursor.sh",
-    "pricingUrl": "https://cursor.sh/pricing"
+    "pricingUrl": "https://cursor.sh/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Zed",
     "description": "High-performance, collaborative code editor with built-in AI assistance aimed at real-time teamwork",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://zed.dev"
+    "websiteUrl": "https://zed.dev",
+    "category": "dev-environments"
   },
   {
     "name": "Windsurf",
@@ -966,14 +1099,16 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://codeium.com/windsurf",
-    "pricingUrl": "https://codeium.com/pricing"
+    "pricingUrl": "https://codeium.com/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "Jules",
     "description": "AI coding agent from Google that autonomously fixes bugs and implements changes in GitHub repositories",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://ai.google.dev/jules"
+    "websiteUrl": "https://ai.google.dev/jules",
+    "category": "dev-environments"
   },
   {
     "name": "Gemini CLI",
@@ -981,7 +1116,9 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://ai.google.dev/gemini-cli",
-    "apiUrl": "https://ai.google.dev"
+    "apiUrl": "https://ai.google.dev",
+    "notes": "Early tests hit nonstop \"busy\" loops before running commands, so I only reach for this when every other agent is capped.",
+    "category": "agent-harnesses"
   },
   {
     "name": "OpenAI Codex",
@@ -990,7 +1127,9 @@
     "pressureTested": false,
     "websiteUrl": "https://openai.com/codex",
     "pricingUrl": "https://openai.com/pricing",
-    "apiUrl": "https://platform.openai.com/docs"
+    "apiUrl": "https://platform.openai.com/docs",
+    "notes": "GPT-5.1 Codex through OpenCode's `/connect` → OpenAI path refuses to read screenshots—always convert evidence to text before handing it tasks. After an initial connection failure it stabilized, and with ChatGPT Plus ($20) it now fills the gap whenever Claude limits kick in.",
+    "category": "models"
   },
   {
     "name": "GitHub Copilot",
@@ -998,7 +1137,8 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://github.com/features/copilot",
-    "pricingUrl": "https://github.com/pricing"
+    "pricingUrl": "https://github.com/pricing",
+    "category": "dev-environments"
   },
   {
     "name": "CodeRabbit",
@@ -1006,14 +1146,36 @@
     "inCurrentStack": false,
     "pressureTested": false,
     "websiteUrl": "https://coderabbit.ai",
-    "pricingUrl": "https://coderabbit.ai/pricing"
+    "pricingUrl": "https://coderabbit.ai/pricing",
+    "category": "dev-environments"
+  },
+  {
+    "name": "Mastra",
+    "description": "Open-source TypeScript framework for building, deploying, and orchestrating AI-powered applications and autonomous agents.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://mastra.ai",
+    "apiUrl": "https://docs.mastra.ai",
+    "notes": "AI-native agent infrastructure with npm scaffolding (`npm create mastra@latest`). More opinionated than LangChain/LlamaIndex and designed for the Agent Infrastructure bundle, giving framework-level control beyond a single vendor API.",
+    "category": "agent-infrastructure"
+  },
+  {
+    "name": "MiniMax M2.5",
+    "description": "Low-cost coding-friendly LLM accessible via OpenRouter/OpenCode with a free quota that seems to refresh weekly.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "websiteUrl": "https://www.minimaxi.com",
+    "notes": "Whenever the free tier opens back up it becomes my default helper—cheap, surprisingly capable, and ideal before paying for pricier Claude or Codex capacity. Does not support reading images or screenshots.",
+    "category": "models"
   },
   {
     "name": "Google Antigravity",
     "description": "Experimental Google research project exploring autonomous software engineering agents capable of planning, coding, and iterating on complex systems end-to-end",
     "inCurrentStack": false,
     "pressureTested": false,
-    "websiteUrl": "https://antigravity.google/"
+    "websiteUrl": "https://antigravity.google/",
+    "notes": "Per https://www.youtube.com/watch?v=pJylXFAC87A, much of the team came from Windsurf and this feels like a Windsurf-next effort under Google; watching closely but waiting for hands-on access.",
+    "category": "agent-harnesses"
   },
   {
     "name": "Remotion",
@@ -1022,7 +1184,8 @@
     "pressureTested": false,
     "websiteUrl": "https://www.remotion.dev",
     "pricingUrl": "https://www.remotion.dev/pricing",
-    "apiUrl": "https://www.remotion.dev/docs"
+    "apiUrl": "https://www.remotion.dev/docs",
+    "category": "video-generation"
   },
   {
     "name": "pi-coding-agent",
@@ -1031,7 +1194,9 @@
     "pressureTested": true,
     "evaluating": true,
     "planned": false,
-    "websiteUrl": "https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent"
+    "websiteUrl": "https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent",
+    "notes": "Ships without plan mode by default, so you have to install/enable the planning primitives yourself before trusting it with work.",
+    "category": "agent-harnesses"
   },
   {
     "name": "OpenCode",
@@ -1040,7 +1205,8 @@
     "pressureTested": true,
     "evaluating": true,
     "planned": false,
-    "websiteUrl": "https://opencode.ai"
+    "websiteUrl": "https://opencode.ai",
+    "category": "agent-harnesses"
   },
   {
     "name": "OpenAI Codex",
@@ -1049,7 +1215,9 @@
     "pressureTested": true,
     "evaluating": true,
     "planned": false,
-    "websiteUrl": "https://github.com/openai/codex"
+    "websiteUrl": "https://github.com/openai/codex",
+    "notes": "Same GPT-5.1 Codex limitation as above: screenshot attachments are ignored entirely, so include plaintext context or switch providers. Currently accessed inside OpenCode 1.2.15 via ChatGPT Plus where it provides steady throughput whenever Claude's lower tier is saturated.",
+    "category": "models"
   },
   {
     "name": "Gemini CLI",
@@ -1058,7 +1226,8 @@
     "pressureTested": true,
     "evaluating": false,
     "planned": false,
-    "notes": "Switch to Gemini CLI when Claude Code hits usage limits. Hasn't completed porting Claude Code plugins to Gemini extension format. Commands are *.toml, skills map 1-1, hooks are different, MCP is similar."
+    "notes": "Switch to Gemini CLI when Claude Code hits usage limits. Hasn't completed porting Claude Code plugins to Gemini extension format. Commands are *.toml, skills map 1-1, hooks are different, MCP is similar. When it works it's solid, but lately it just sits \"busy\" or times out, so I keep cheaper-but-reliable models ready as the default.",
+    "category": "agent-harnesses"
   },
   {
     "name": "Claude Code",
@@ -1067,20 +1236,183 @@
     "pressureTested": true,
     "evaluating": false,
     "planned": false,
-    "notes": "Favorite tool in the category. Would use exclusively if not so expensive.",
+    "notes": "Favorite tool in the category. Would use exclusively if not so expensive. $20 tier times out too often on heavy days, and the $100 tier only makes sense when billing high-rate client work, so I'm pairing the cheaper plan with Codex/Minimax instead of paying $100 every month.",
     "websiteUrl": "https://www.anthropic.com/claude-code",
     "pricingUrl": "https://www.anthropic.com/pricing",
-    "apiUrl": "https://docs.anthropic.com"
+    "apiUrl": "https://docs.anthropic.com",
+    "category": "agent-harnesses"
   },
   {
     "name": "Goose",
     "description": "A local, open-source AI coding agent that autonomously executes engineering tasks like debugging, refactoring, and deployment using your preferred LLM and external MCP servers.",
     "inCurrentStack": false,
-    "pressureTested": false,
+    "pressureTested": true,
     "evaluating": false,
-    "planned": true,
+    "planned": false,
     "websiteUrl": "https://block.github.io/goose",
-    "pricingUrl": "Not public",
-    "apiUrl": "https://block.github.io/goose/docs"
+    "apiUrl": "https://block.github.io/goose/docs",
+    "replacedBy": "Gemini CLI",
+    "replacementReason": "Unstable interface (crashes with OpenAI). When using Gemini, it lacks custom slash commands and feels like a downgraded Gemini CLI.",
+    "notes": "Tried it and didn't like the interface.",
+    "category": "agent-harnesses"
+  },
+  {
+    "name": "Lemon",
+    "description": "Voice-driven Mac AI agent that turns dictation into tasks (email replies, docs, search, edits) from a single hotkey.",
+    "inCurrentStack": false,
+    "pressureTested": true,
+    "websiteUrl": "https://heylemon.ai",
+    "tags": [
+      "voice",
+      "dictation",
+      "transcription",
+      "agent",
+      "macos",
+      "productivity"
+    ],
+    "notes": "Voice-activated agent that lives in the MacBook notch/menu bar. Two keybindings: one for agent mode (do tasks like writing emails or acting in a browser) and one for dictation mode. Loved the two-for-one (dictation feels free vs Wispr Flow word caps), but it is too buggy: clipboard mode sometimes copies nothing, settings fields randomly disappear, email address is locked, \"Check updates\" is inert, integrations show as disconnected, and after a few launches the menu stops opening until force quit. Support (support@heylemon.ai) has been responsive per the Attio CRM thread, but I removed it from my stack for reliability.",
+    "category": "assistant-platforms"
+  },
+  {
+    "name": "Attio",
+    "description": "Collaborative CRM used to organize contacts, vendor threads, subscriptions, and refunds with company-level timelines.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "websiteUrl": "https://attio.com",
+    "notes": "Using it beyond sales: every tool/subscription (like Lemon) lives here so I can see the entire support email history at the company level, reply from any thread, and create follow-up tasks for refunds or chargebacks. It doubles as a personal subscription tracker and business CRM in one place.",
+    "category": "sales-crm"
+  },
+  {
+    "name": "HyperWhisper",
+    "description": "AI voice-to-text tool that transcribes natural speech in real time to accelerate writing, note-taking, and content creation.",
+    "inCurrentStack": true,
+    "pressureTested": true,
+    "websiteUrl": "https://www.hyperwhisper.com",
+    "pricingUrl": "https://www.hyperwhisper.com/pricing",
+    "category": "audio-generation",
+    "tags": [
+      "voice",
+      "dictation",
+      "transcription",
+      "productivity"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Pricing: Free ($0) includes 3 minutes/day transcription. Pro is $39 lifetime with unlimited transcription; includes lifetime updates, custom vocabulary, priority support, and $5 HyperWhisper Cloud credits. Similar to Wispr Flow and SuperWhisper but positions on simplicity and cloud accuracy vs OS-level voice control or local/offline models."
+  },
+  {
+    "name": "LiteLLM",
+    "description": "Unified proxy and SDK that standardizes access to multiple LLM providers with a single API and routing, logging, and cost-control features.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://litellm.ai",
+    "pricingUrl": "https://docs.litellm.ai/docs/proxy/pricing",
+    "apiUrl": "https://docs.litellm.ai/docs/",
+    "category": "agent-infrastructure",
+    "tags": [
+      "llm-infrastructure",
+      "proxy",
+      "routing",
+      "observability",
+      "cost-control",
+      "open-source"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "OpenAI-compatible API proxy for multi-provider routing, logging, fallback, and cost controls (OpenAI, Anthropic, Gemini, OpenRouter, etc.). LangChain is app orchestration; LiteLLM is inference routing/standardization. OpenRouter is hosted routing; LiteLLM is self-hosted proxy control."
+  },
+  {
+    "name": "LLMFit",
+    "description": "CLI tool for benchmarking, evaluating, and comparing LLM performance across prompts, datasets, and providers to identify the best model for a task.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://github.com/AlexsJones/llmfit",
+    "category": "evaluation-benchmarking",
+    "tags": [
+      "evaluation",
+      "benchmarking",
+      "cli",
+      "open-source",
+      "multi-provider"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Lightweight CLI benchmarking for comparing models across providers and prompt sets; simpler than heavier experiment-tracking platforms. Competitive: LangSmith (heavier), Promptfoo (strong prompt testing), OpenAI Evals (OpenAI-focused)."
+  },
+  {
+    "name": "Superwhisper",
+    "description": "AI-powered voice dictation tool that converts speech into structured, formatted text for coding, writing, and agent-driven workflows.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://superwhisper.com",
+    "pricingUrl": "https://superwhisper.com",
+    "category": "audio-generation",
+    "tags": [
+      "voice",
+      "dictation",
+      "transcription",
+      "productivity",
+      "agentic-dev-stack"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Voice-first dictation aimed at structured/formatted text for coding and writing; emerged alongside agentic coding workflows (e.g., Cursor, Claude Code). Competitive: Wispr Flow (more consumer dictation), MacWhisper (strong local transcription, weaker real-time workflow integration)."
+  },
+  {
+    "name": "llama.cpp",
+    "description": "Open-source C/C++ runtime for efficient local LLM inference across CPUs, GPUs, and edge devices, built for developers shipping offline or self-hosted AI.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://github.com/ggml-org/llama.cpp",
+    "apiUrl": "https://github.com/ggml-org/llama.cpp",
+    "category": "local-inference",
+    "tags": [
+      "local-ai",
+      "local-inference",
+      "runtime",
+      "cpp",
+      "open-source",
+      "offline",
+      "self-hosted"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Foundational local/embedded inference substrate; differentiates via portability, quantization support, hybrid CPU/GPU execution, and broad hardware coverage. Competitive: Ollama (UX/packaging), vLLM (high-throughput server inference), MLX (Apple-optimized)."
+  },
+  {
+    "name": "Wispr Flow",
+    "description": "AI-powered voice-to-text tool that enables fast, natural dictation for writing, coding, and messaging across applications.",
+    "inCurrentStack": false,
+    "pressureTested": true,
+    "websiteUrl": "https://wisprflow.ai/",
+    "category": "audio-generation",
+    "tags": [
+      "voice",
+      "dictation",
+      "transcription",
+      "productivity"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Strong cross-app dictation for writing/coding/messaging. Pain point: limited weekly words; after the quota it becomes noticeably constrained. Competitive: Superwhisper (more agentic/structured), Apple Dictation (less accurate/context-aware for technical long-form)."
+  },
+  {
+    "name": "MacWhisper",
+    "description": "A macOS app that transcribes audio files locally using Whisper and Parakeet for fast, private, high-accuracy speech-to-text.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://goodsnooze.gumroad.com/l/macwhisper",
+    "pricingUrl": "https://goodsnooze.gumroad.com/l/macwhisper",
+    "category": "audio-generation",
+    "tags": [
+      "voice",
+      "transcription",
+      "local-first",
+      "privacy",
+      "macos"
+    ],
+    "evaluating": false,
+    "planned": false,
+    "notes": "Local-first transcription (Whisper/Parakeet) optimized for privacy and speed on macOS. Competitive: Otter.ai (collab/cloud), Descript (heavier editing suite), Whisper CLI tools (flexible but less accessible)."
   }
 ]

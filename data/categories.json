@@ -1,0 +1,77 @@
+[
+  {
+    "id": "models",
+    "name": "Foundation Models",
+    "description": "Core reasoning engines that generate tokens"
+  },
+  {
+    "id": "agent-infrastructure",
+    "name": "Agent Infrastructure",
+    "description": "Frameworks for building and orchestrating agents"
+  },
+  {
+    "id": "agent-harnesses",
+    "name": "Agent Harnesses",
+    "description": "Runtime environments that execute agent work loops"
+  },
+  {
+    "id": "dev-environments",
+    "name": "AI Dev Environments",
+    "description": "Editors and coding environments with embedded AI"
+  },
+  {
+    "id": "workflow-automation",
+    "name": "Workflow Automation",
+    "description": "Systems that automate tasks across services"
+  },
+  {
+    "id": "assistant-platforms",
+    "name": "Assistant Platforms",
+    "description": "AI assistants with tools, memory, and extensibility"
+  },
+  {
+    "id": "knowledge-tools",
+    "name": "Knowledge & Search",
+    "description": "AI-powered search and knowledge retrieval tools"
+  },
+  {
+    "id": "meetings",
+    "name": "Meeting Intelligence",
+    "description": "Tools for recording, transcribing, and summarizing meetings"
+  },
+  {
+    "id": "sales-crm",
+    "name": "Sales & CRM",
+    "description": "AI-powered sales and customer relationship tools"
+  },
+  {
+    "id": "design-tools",
+    "name": "Design Tools",
+    "description": "AI-assisted design and presentation tools"
+  },
+  {
+    "id": "video-generation",
+    "name": "Video Generation",
+    "description": "Tools for generating and editing video content"
+  },
+  {
+    "id": "image-generation",
+    "name": "Image Generation",
+    "description": "Tools for generating and editing images"
+  },
+  {
+    "id": "audio-generation",
+    "name": "Audio Generation",
+    "description": "Tools for generating audio and voice content"
+  },
+  {
+    "id": "evaluation-benchmarking",
+    "name": "Evaluation & Benchmarking",
+    "description": "Tools for benchmarking, evaluating, and comparing LLMs across prompts, datasets, and providers."
+  },
+  {
+    "id": "local-inference",
+    "name": "Local Inference",
+    "description": "Runtimes and tooling for running LLM inference locally (CPU/GPU/edge), offline or self-hosted."
+  }
+]

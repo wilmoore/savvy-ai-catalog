@@ -1,5 +1,5 @@
 {
-  "lastSequence": 5,
+  "lastSequence": 6,
   "entries": [
     {
       "branch": "mvp/catalog",
@@ -16,6 +16,10 @@
     {
       "branch": "feat/add-coding-agents",
       "adrs": ["005-add-status-tracking-fields.md"]
+    },
+    {
+      "branch": "feat/document-gpt51-screenshot-limit",
+      "adrs": ["006-add-categories-and-tags.md"]
     }
   ]
 }

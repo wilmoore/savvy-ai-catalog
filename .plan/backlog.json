@@ -1,4 +1,5 @@
 {
+  "lastSequence": 12,
   "items": [
     {
       "id": 1,
@@ -116,10 +117,11 @@
       "type": "feature",
       "severity": "high",
       "phase": "must",
-      "status": "in-progress",
+      "status": "resolved",
       "createdAt": "2026-02-28T00:00:00Z",
       "source": "feature-request",
-      "sourceBranch": "feat/add-coding-agents"
+      "sourceBranch": "feat/add-coding-agents",
+      "resolvedAt": "2026-03-01T00:00:00Z"
     },
     {
       "id": 11,
@@ -132,6 +134,18 @@
       "createdAt": "2026-02-28T00:00:01Z",
       "source": "feature-request",
       "sourceBranch": null
+    },
+    {
+      "id": 12,
+      "title": "Document AI agent limitations and add Lemon & Attio",
+      "description": "Capture GPT-5.1 Codex screenshot limitations, Gemini reliability issues, pi-coding-agent plan-mode gap, and add detailed catalog entries for Lemon and Attio with current usage notes.",
+      "type": "feature",
+      "severity": "medium",
+      "phase": "should",
+      "status": "in-progress",
+      "createdAt": "2026-03-02T11:25:00Z",
+      "source": "/pro:feature",
+      "sourceBranch": "feat/document-gpt51-screenshot-limit"
     }
   ]
 }

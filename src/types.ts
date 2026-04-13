@@ -30,6 +30,16 @@ export interface CatalogEntry {
   pressureTested: boolean;
 
   /**
+   * The category this entry belongs to (slug).
+   */
+  category?: string;
+
+  /**
+   * Secondary tags for cross-cutting classification.
+   */
+  tags?: string[];
+
+  /**
    * The primary website URL for the tool or concept.
    */
   websiteUrl?: string;
@@ -59,9 +69,49 @@ export interface CatalogEntry {
    * Why the switch was made to the replacement tool.
    */
   replacementReason?: string;
+
+  /**
+   * Whether the tool is currently being evaluated.
+   */
+  evaluating?: boolean;
+
+  /**
+   * Whether the tool is planned for future evaluation or use.
+   */
+  planned?: boolean;
+
+  /**
+   * Personal notes or experience with the tool.
+   */
+  notes?: string;
+}
+
+/**
+ * A category for grouping catalog entries.
+ */
+export interface Category {
+  /**
+   * The category identifier (URL-friendly slug).
+   */
+  id: string;
+
+  /**
+   * The human-readable name.
+   */
+  name: string;
+
+  /**
+   * One sentence describing what this category contains.
+   */
+  description: string;
 }
 
 /**
  * The catalog is a collection of entries.
  */
+export interface CatalogData {
+  entries: CatalogEntry[];
+  categories: Category[];
+}
+
 export type Catalog = CatalogEntry[];

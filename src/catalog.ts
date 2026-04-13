@@ -1,4 +1,4 @@
-import type { Catalog, CatalogEntry } from "./types.js";
+import type { Catalog, CatalogEntry, Category } from "./types.js";
 import type { CatalogStore } from "./store.js";
 import { createStore } from "./store.js";
 
@@ -21,7 +21,7 @@ export class CatalogService {
       throw new Error("Entry name cannot be empty");
     }
 
-    const catalog = this.store.load();
+    const catalog = this.store.loadEntries();
 
     const exists = catalog.some(
       (e) => e.name.toLowerCase() === entry.name.toLowerCase()
@@ -39,18 +39,23 @@ export class CatalogService {
       ...(entry.pricingUrl && { pricingUrl: entry.pricingUrl.trim() }),
       ...(entry.affiliateUrl && { affiliateUrl: entry.affiliateUrl.trim() }),
       ...(entry.apiUrl && { apiUrl: entry.apiUrl.trim() }),
+      ...(entry.category && { category: entry.category.trim() }),
+      ...(entry.tags && entry.tags.length > 0 && { tags: entry.tags }),
       ...(entry.replacedBy && { replacedBy: entry.replacedBy.trim() }),
       ...(entry.replacementReason && { replacementReason: entry.replacementReason.trim() }),
+      ...(entry.evaluating !== undefined && { evaluating: entry.evaluating }),
+      ...(entry.planned !== undefined && { planned: entry.planned }),
+      ...(entry.notes && { notes: entry.notes.trim() }),
     });
 
-    this.store.save(catalog);
+    this.store.saveEntries(catalog);
   }
 
   /**
    * List all entries in the catalog.
    */
   list(): Catalog {
-    return this.store.load();
+    return this.store.loadEntries();
   }
 
   /**
@@ -58,7 +63,7 @@ export class CatalogService {
    * @returns The entry if found, undefined otherwise
    */
   findByName(name: string): CatalogEntry | undefined {
-    const catalog = this.store.load();
+    const catalog = this.store.loadEntries();
     return catalog.find((e) => e.name.toLowerCase() === name.toLowerCase());
   }
 
@@ -69,7 +74,7 @@ export class CatalogService {
    * @throws Error if entry is not found
    */
   update(name: string, updates: Partial<Omit<CatalogEntry, "name">>): void {
-    const catalog = this.store.load();
+    const catalog = this.store.loadEntries();
     const index = catalog.findIndex(
       (e) => e.name.toLowerCase() === name.toLowerCase()
     );
@@ -102,15 +107,64 @@ export class CatalogService {
       ...(updates.apiUrl !== undefined && {
         apiUrl: updates.apiUrl.trim(),
       }),
+      ...(updates.category !== undefined && {
+        category: updates.category.trim(),
+      }),
+      ...(updates.tags !== undefined && {
+        tags: updates.tags,
+      }),
       ...(updates.replacedBy !== undefined && {
         replacedBy: updates.replacedBy.trim(),
       }),
       ...(updates.replacementReason !== undefined && {
         replacementReason: updates.replacementReason.trim(),
       }),
+      ...(updates.evaluating !== undefined && {
+        evaluating: updates.evaluating,
+      }),
+      ...(updates.planned !== undefined && {
+        planned: updates.planned,
+      }),
+      ...(updates.notes !== undefined && {
+        notes: updates.notes.trim(),
+      }),
     };
 
-    this.store.save(catalog);
+    this.store.saveEntries(catalog);
+  }
+
+  /**
+   * List all categories.
+   */
+  listCategories(): Category[] {
+    return this.store.loadCategories();
+  }
+
+  /**
+   * Add a new category.
+   * @throws Error if category id already exists
+   */
+  addCategory(category: Category): void {
+    if (!category.id || category.id.trim() === "") {
+      throw new Error("Category id cannot be empty");
+    }
+
+    const categories = this.store.loadCategories();
+
+    const exists = categories.some(
+      (c) => c.id.toLowerCase() === category.id.toLowerCase()
+    );
+    if (exists) {
+      throw new Error(`Category "${category.id}" already exists`);
+    }
+
+    categories.push({
+      id: category.id.trim(),
+      name: category.name.trim(),
+      description: category.description.trim(),
+    });
+
+    this.store.saveCategories(categories);
   }
 }
 
