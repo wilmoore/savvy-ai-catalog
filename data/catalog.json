@@ -1414,5 +1414,21 @@
     "evaluating": false,
     "planned": false,
     "notes": "Local-first transcription (Whisper/Parakeet) optimized for privacy and speed on macOS. Competitive: Otter.ai (collab/cloud), Descript (heavier editing suite), Whisper CLI tools (flexible but less accessible)."
+  },
+  {
+    "name": "agent-qa",
+    "description": "An AI QA agent from vostride for web and mobile testing with persistent memidex memory, validated self-improvement, MCP, and reviewable run evidence.",
+    "inCurrentStack": false,
+    "pressureTested": false,
+    "websiteUrl": "https://vostride.com",
+    "apiUrl": "https://vostride.com/docs/agent-qa/mcp",
+    "category": "agent-harnesses",
+    "tags": [
+      "testing",
+      "web",
+      "mobile",
+      "mcp",
+      "memory"
+    ]
   }
 ]
